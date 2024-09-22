@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3965BF54-45ED-4419-81D1-8E47888D8134}|agroApp.Domain.Test\\agroApp.Domain.Test.csproj|c:\\users\\kamil\\desktop\\agro\\backend---v4\\agroapp\\agroapp.domain.test\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3965BF54-45ED-4419-81D1-8E47888D8134}|agroApp.Domain.Test\\agroApp.Domain.Test.csproj|solutionrelative:agroapp.domain.test\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20CE3BB5-FC24-448E-80A5-58A8CF5B8703}|agroApp.Infra.Ioc\\agroApp.Infra.Ioc.csproj|c:\\users\\kamil\\desktop\\agro\\backend---v4\\agroapp\\agroapp.infra.ioc\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20CE3BB5-FC24-448E-80A5-58A8CF5B8703}|agroApp.Infra.Ioc\\agroApp.Infra.Ioc.csproj|solutionrelative:agroapp.infra.ioc\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3C647AA-E191-4E56-9755-4C8AC66EE2E2}|agroApp.Infra.Data\\agroApp.Infra.Data.csproj|c:\\users\\kamil\\desktop\\agro\\backend---v4\\agroapp\\agroapp.infra.data\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3C647AA-E191-4E56-9755-4C8AC66EE2E2}|agroApp.Infra.Data\\agroApp.Infra.Data.csproj|solutionrelative:agroapp.infra.data\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49324C4F-6E5B-4EA4-B561-B45AAFC2BA1F}|agroApp.Aplication\\agroApp.Aplication.csproj|c:\\users\\kamil\\desktop\\agro\\backend---v4\\agroapp\\agroapp.aplication\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49324C4F-6E5B-4EA4-B561-B45AAFC2BA1F}|agroApp.Aplication\\agroApp.Aplication.csproj|solutionrelative:agroapp.aplication\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6295D7FA-4DBC-4218-AA2B-0E4DB3CE0219}|agroApp.Domain\\agroApp.Domain.csproj|c:\\users\\kamil\\desktop\\agro\\backend---v4\\agroapp\\agroapp.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6295D7FA-4DBC-4218-AA2B-0E4DB3CE0219}|agroApp.Domain\\agroApp.Domain.csproj|solutionrelative:agroapp.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Domain.Test\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "agroApp.Domain.Test\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Domain.Test\\UnitTest1.cs",
+              "RelativeToolTip": "agroApp.Domain.Test\\UnitTest1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T17:55:54.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Infra.Ioc\\Class1.cs",
+              "RelativeDocumentMoniker": "agroApp.Infra.Ioc\\Class1.cs",
+              "ToolTip": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Infra.Ioc\\Class1.cs",
+              "RelativeToolTip": "agroApp.Infra.Ioc\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T17:55:16.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Infra.Data\\Class1.cs",
+              "RelativeDocumentMoniker": "agroApp.Infra.Data\\Class1.cs",
+              "ToolTip": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Infra.Data\\Class1.cs",
+              "RelativeToolTip": "agroApp.Infra.Data\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T17:54:46.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Aplication\\Class1.cs",
+              "RelativeDocumentMoniker": "agroApp.Aplication\\Class1.cs",
+              "ToolTip": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Aplication\\Class1.cs",
+              "RelativeToolTip": "agroApp.Aplication\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T17:53:48.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Domain\\Class1.cs",
+              "RelativeDocumentMoniker": "agroApp.Domain\\Class1.cs",
+              "ToolTip": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Domain\\Class1.cs",
+              "RelativeToolTip": "agroApp.Domain\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T17:51:35.342Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
