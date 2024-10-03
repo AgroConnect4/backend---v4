@@ -1617,7 +1617,10 @@
           "System.IdentityModel.Tokens.Jwt": "8.1.0"
         },
         "runtime": {
-          "agroApp.Domain.dll": {}
+          "agroApp.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

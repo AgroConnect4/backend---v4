@@ -24,6 +24,3 @@ C:\agro\backend---v4\agroApp\agroApp.Domain\obj\Debug\net6.0\agroApp.Domain.dll
 C:\agro\backend---v4\agroApp\agroApp.Domain\obj\Debug\net6.0\refint\agroApp.Domain.dll
 C:\agro\backend---v4\agroApp\agroApp.Domain\obj\Debug\net6.0\agroApp.Domain.pdb
 C:\agro\backend---v4\agroApp\agroApp.Domain\obj\Debug\net6.0\ref\agroApp.Domain.dll
-C:\Users\kamil\Desktop\agro\agro\backend---v4\agroApp\agroApp.Domain\obj\Debug\net6.0\agroApp.Domain.dll
-C:\Users\kamil\Desktop\agro\agro\backend---v4\agroApp\agroApp.Domain\obj\Debug\net6.0\refint\agroApp.Domain.dll
-C:\Users\kamil\Desktop\agro\agro\backend---v4\agroApp\agroApp.Domain\obj\Debug\net6.0\agroApp.Domain.pdb

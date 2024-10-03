@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "M5CMIpmwJMquPypZXmOzuTvOAbPYOj7gFMvZXOhWDTHkrhrgh1llr/oK5z4iObK+68qUqoQDJ0j60pkYPoE4SQ==",
+  "dgSpecHash": "/UumGyoXSFHPr2ExMBJ0EwNn/jwVZRDIP8An9AVcffKCjBX/V6kAmTGC8l+whk0mcYQdZhJa2LDU+80ytJeQ5A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kamil\\Desktop\\agro\\agro\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj",
+  "projectFilePath": "C:\\Users\\kamil\\Desktop\\git\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kamil\\.nuget\\packages\\fluentvalidation\\11.10.0\\fluentvalidation.11.10.0.nupkg.sha512",
     "C:\\Users\\kamil\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.10.0\\fluentvalidation.dependencyinjectionextensions.11.10.0.nupkg.sha512",

@@ -30,6 +30,3 @@ C:\agro\backend---v4\agroApp\agroApp.Aplication\obj\Debug\net6.0\agroApp.Aplicat
 C:\agro\backend---v4\agroApp\agroApp.Aplication\obj\Debug\net6.0\refint\agroApp.Aplication.dll
 C:\agro\backend---v4\agroApp\agroApp.Aplication\obj\Debug\net6.0\agroApp.Aplication.pdb
 C:\agro\backend---v4\agroApp\agroApp.Aplication\obj\Debug\net6.0\ref\agroApp.Aplication.dll
-C:\Users\kamil\Desktop\agro\agro\backend---v4\agroApp\agroApp.Aplication\obj\Debug\net6.0\agroApp.Aplication.dll
-C:\Users\kamil\Desktop\agro\agro\backend---v4\agroApp\agroApp.Aplication\obj\Debug\net6.0\refint\agroApp.Aplication.dll
-C:\Users\kamil\Desktop\agro\agro\backend---v4\agroApp\agroApp.Aplication\obj\Debug\net6.0\agroApp.Aplication.pdb
