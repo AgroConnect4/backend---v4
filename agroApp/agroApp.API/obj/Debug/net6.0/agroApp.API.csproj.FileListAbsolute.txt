@@ -210,6 +210,3 @@ C:\agro\backend---v4\agroApp\agroApp.API\obj\Debug\net6.0\refint\agroApp.API.dll
 C:\agro\backend---v4\agroApp\agroApp.API\obj\Debug\net6.0\agroApp.API.pdb
 C:\agro\backend---v4\agroApp\agroApp.API\obj\Debug\net6.0\agroApp.API.genruntimeconfig.cache
 C:\agro\backend---v4\agroApp\agroApp.API\obj\Debug\net6.0\ref\agroApp.API.dll
-C:\Users\kamil\Desktop\agro\agro\backend---v4\agroApp\agroApp.API\obj\Debug\net6.0\agroApp.API.dll
-C:\Users\kamil\Desktop\agro\agro\backend---v4\agroApp\agroApp.API\obj\Debug\net6.0\refint\agroApp.API.dll
-C:\Users\kamil\Desktop\agro\agro\backend---v4\agroApp\agroApp.API\obj\Debug\net6.0\agroApp.API.pdb

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "i4ldVWISAHllBQelExvOGYPC7rAkkQY2uM4+NlFRUyQd7weQel3uLm9RJUbxFM8Mp9rajE7cRNVqz51TRU5oJA==",
+  "dgSpecHash": "9Pp1kQ+yGDigKKl/2qPhPnyXG/neSW4PlCKKVE0hZkI3+EOUbx4l8t1yNA21M3HQalVPnQZ5r3V0pTovM487dA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kamil\\Desktop\\agro\\agro\\backend---v4\\agroApp\\agroApp.API\\agroApp.API.csproj",
+  "projectFilePath": "C:\\Users\\kamil\\Desktop\\git\\backend---v4\\agroApp\\agroApp.API\\agroApp.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kamil\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\kamil\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/aoKc11szIFIaOk4O5uwXOybRpT5KeqECk+MMj2q7tDCZwYwub4WLWKFOpQ0un/QaOg00sMkcJif1yl/ioMHQw==",
+  "dgSpecHash": "Nnl3TkdraA0+chEZQbmwy5Fnn0KWsMOZ3rz6fi4i1Bvn1q5j1bMN8QLFvBwXzo1yghxtFLupB+MDwEZqyamy5A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kamil\\Desktop\\agro\\agro\\backend---v4\\agroApp\\agroApp.Aplication\\agroApp.Aplication.csproj",
+  "projectFilePath": "C:\\Users\\kamil\\Desktop\\git\\backend---v4\\agroApp\\agroApp.Aplication\\agroApp.Aplication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kamil\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\kamil\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

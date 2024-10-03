@@ -4954,11 +4954,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kamil\\Desktop\\agro\\agro\\backend---v4\\agroApp\\agroApp.Domain.Test\\agroApp.Domain.Test.csproj",
+      "projectUniqueName": "C:\\Users\\kamil\\Desktop\\git\\backend---v4\\agroApp\\agroApp.Domain.Test\\agroApp.Domain.Test.csproj",
       "projectName": "agroApp.Domain.Test",
-      "projectPath": "C:\\Users\\kamil\\Desktop\\agro\\agro\\backend---v4\\agroApp\\agroApp.Domain.Test\\agroApp.Domain.Test.csproj",
+      "projectPath": "C:\\Users\\kamil\\Desktop\\git\\backend---v4\\agroApp\\agroApp.Domain.Test\\agroApp.Domain.Test.csproj",
       "packagesPath": "C:\\Users\\kamil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kamil\\Desktop\\agro\\agro\\backend---v4\\agroApp\\agroApp.Domain.Test\\obj\\",
+      "outputPath": "C:\\Users\\kamil\\Desktop\\git\\backend---v4\\agroApp\\agroApp.Domain.Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kamil\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4975,8 +4975,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\kamil\\Desktop\\agro\\agro\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj": {
-              "projectPath": "C:\\Users\\kamil\\Desktop\\agro\\agro\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj"
+            "C:\\Users\\kamil\\Desktop\\git\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj": {
+              "projectPath": "C:\\Users\\kamil\\Desktop\\git\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj"
             }
           }
         }
