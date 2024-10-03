@@ -1,0 +1,12 @@
+C:\Users\kamil\Desktop\agro\backend---v4\agroApp\agroApp.Infra.Ioc\bin\Debug\net6.0\agroApp.Infra.Ioc.deps.json
+C:\Users\kamil\Desktop\agro\backend---v4\agroApp\agroApp.Infra.Ioc\bin\Debug\net6.0\agroApp.Infra.Ioc.dll
+C:\Users\kamil\Desktop\agro\backend---v4\agroApp\agroApp.Infra.Ioc\bin\Debug\net6.0\agroApp.Infra.Ioc.pdb
+C:\Users\kamil\Desktop\agro\backend---v4\agroApp\agroApp.Infra.Ioc\obj\Debug\net6.0\agroApp.Infra.Ioc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kamil\Desktop\agro\backend---v4\agroApp\agroApp.Infra.Ioc\obj\Debug\net6.0\agroApp.Infra.Ioc.AssemblyInfoInputs.cache
+C:\Users\kamil\Desktop\agro\backend---v4\agroApp\agroApp.Infra.Ioc\obj\Debug\net6.0\agroApp.Infra.Ioc.AssemblyInfo.cs
+C:\Users\kamil\Desktop\agro\backend---v4\agroApp\agroApp.Infra.Ioc\obj\Debug\net6.0\agroApp.Infra.Ioc.csproj.CoreCompileInputs.cache
+C:\Users\kamil\Desktop\agro\backend---v4\agroApp\agroApp.Infra.Ioc\obj\Debug\net6.0\agroApp.Infra.Ioc.sourcelink.json
+C:\Users\kamil\Desktop\agro\backend---v4\agroApp\agroApp.Infra.Ioc\obj\Debug\net6.0\agroApp.Infra.Ioc.dll
+C:\Users\kamil\Desktop\agro\backend---v4\agroApp\agroApp.Infra.Ioc\obj\Debug\net6.0\refint\agroApp.Infra.Ioc.dll
+C:\Users\kamil\Desktop\agro\backend---v4\agroApp\agroApp.Infra.Ioc\obj\Debug\net6.0\agroApp.Infra.Ioc.pdb
+C:\Users\kamil\Desktop\agro\backend---v4\agroApp\agroApp.Infra.Ioc\obj\Debug\net6.0\ref\agroApp.Infra.Ioc.dll

@@ -1,26 +1,162 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\kamil\\Downloads\\Nova pasta\\backend---v4\\agroApp\\",
+  "WorkspaceRootPath": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3965BF54-45ED-4419-81D1-8E47888D8134}|agroApp.Domain.Test\\agroApp.Domain.Test.csproj|c:\\users\\kamil\\downloads\\nova pasta\\backend---v4\\agroapp\\agroapp.domain.test\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3965BF54-45ED-4419-81D1-8E47888D8134}|agroApp.Domain.Test\\agroApp.Domain.Test.csproj|solutionrelative:agroapp.domain.test\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6295D7FA-4DBC-4218-AA2B-0E4DB3CE0219}|agroApp.Domain\\agroApp.Domain.csproj|c:\\users\\kamil\\desktop\\agro\\backend---v4\\agroapp\\agroapp.domain\\agroapp.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6295D7FA-4DBC-4218-AA2B-0E4DB3CE0219}|agroApp.Domain\\agroApp.Domain.csproj|solutionrelative:agroapp.domain\\agroapp.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{20CE3BB5-FC24-448E-80A5-58A8CF5B8703}|agroApp.Infra.Ioc\\agroApp.Infra.Ioc.csproj|c:\\users\\kamil\\downloads\\nova pasta\\backend---v4\\agroapp\\agroapp.infra.ioc\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20CE3BB5-FC24-448E-80A5-58A8CF5B8703}|agroApp.Infra.Ioc\\agroApp.Infra.Ioc.csproj|solutionrelative:agroapp.infra.ioc\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6295D7FA-4DBC-4218-AA2B-0E4DB3CE0219}|agroApp.Domain\\agroApp.Domain.csproj|c:\\users\\kamil\\desktop\\agro\\backend---v4\\agroapp\\agroapp.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6295D7FA-4DBC-4218-AA2B-0E4DB3CE0219}|agroApp.Domain\\agroApp.Domain.csproj|solutionrelative:agroapp.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3C647AA-E191-4E56-9755-4C8AC66EE2E2}|agroApp.Infra.Data\\agroApp.Infra.Data.csproj|c:\\users\\kamil\\downloads\\nova pasta\\backend---v4\\agroapp\\agroapp.infra.data\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3C647AA-E191-4E56-9755-4C8AC66EE2E2}|agroApp.Infra.Data\\agroApp.Infra.Data.csproj|solutionrelative:agroapp.infra.data\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{20CE3BB5-FC24-448E-80A5-58A8CF5B8703}|agroApp.Infra.Ioc\\agroApp.Infra.Ioc.csproj|c:\\users\\kamil\\desktop\\agro\\backend---v4\\agroapp\\agroapp.infra.ioc\\agroapp.infra.ioc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{20CE3BB5-FC24-448E-80A5-58A8CF5B8703}|agroApp.Infra.Ioc\\agroApp.Infra.Ioc.csproj|solutionrelative:agroapp.infra.ioc\\agroapp.infra.ioc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49324C4F-6E5B-4EA4-B561-B45AAFC2BA1F}|agroApp.Aplication\\agroApp.Aplication.csproj|c:\\users\\kamil\\downloads\\nova pasta\\backend---v4\\agroapp\\agroapp.aplication\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49324C4F-6E5B-4EA4-B561-B45AAFC2BA1F}|agroApp.Aplication\\agroApp.Aplication.csproj|solutionrelative:agroapp.aplication\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{49324C4F-6E5B-4EA4-B561-B45AAFC2BA1F}|agroApp.Aplication\\agroApp.Aplication.csproj|c:\\users\\kamil\\desktop\\agro\\backend---v4\\agroapp\\agroapp.aplication\\agroapp.aplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{49324C4F-6E5B-4EA4-B561-B45AAFC2BA1F}|agroApp.Aplication\\agroApp.Aplication.csproj|solutionrelative:agroapp.aplication\\agroapp.aplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6295D7FA-4DBC-4218-AA2B-0E4DB3CE0219}|agroApp.Domain\\agroApp.Domain.csproj|c:\\users\\kamil\\downloads\\nova pasta\\backend---v4\\agroapp\\agroapp.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6295D7FA-4DBC-4218-AA2B-0E4DB3CE0219}|agroApp.Domain\\agroApp.Domain.csproj|solutionrelative:agroapp.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3965BF54-45ED-4419-81D1-8E47888D8134}|agroApp.Domain.Test\\agroApp.Domain.Test.csproj|c:\\users\\kamil\\desktop\\agro\\backend---v4\\agroapp\\agroapp.domain.test\\agroapp.domain.test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3965BF54-45ED-4419-81D1-8E47888D8134}|agroApp.Domain.Test\\agroApp.Domain.Test.csproj|solutionrelative:agroapp.domain.test\\agroapp.domain.test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3C647AA-E191-4E56-9755-4C8AC66EE2E2}|agroApp.Infra.Data\\agroApp.Infra.Data.csproj|c:\\users\\kamil\\desktop\\agro\\backend---v4\\agroapp\\agroapp.infra.data\\agroapp.infra.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B3C647AA-E191-4E56-9755-4C8AC66EE2E2}|agroApp.Infra.Data\\agroApp.Infra.Data.csproj|solutionrelative:agroapp.infra.data\\agroapp.infra.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85AA80DB-97E5-41C7-9C73-672BF5A97B30}|agroApp.API\\agroApp.API.csproj|c:\\users\\kamil\\desktop\\agro\\backend---v4\\agroapp\\agroapp.api\\agroapp.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{85AA80DB-97E5-41C7-9C73-672BF5A97B30}|agroApp.API\\agroApp.API.csproj|solutionrelative:agroapp.api\\agroapp.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85AA80DB-97E5-41C7-9C73-672BF5A97B30}|agroApp.API\\agroApp.API.csproj|c:\\users\\kamil\\desktop\\agro\\backend---v4\\agroapp\\agroapp.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85AA80DB-97E5-41C7-9C73-672BF5A97B30}|agroApp.API\\agroApp.API.csproj|solutionrelative:agroapp.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6295D7FA-4DBC-4218-AA2B-0E4DB3CE0219}|agroApp.Domain\\agroApp.Domain.csproj|c:\\users\\kamil\\desktop\\agro\\backend---v4\\agroapp\\agroapp.domain\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6295D7FA-4DBC-4218-AA2B-0E4DB3CE0219}|agroApp.Domain\\agroApp.Domain.csproj|solutionrelative:agroapp.domain\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6295D7FA-4DBC-4218-AA2B-0E4DB3CE0219}|agroApp.Domain\\agroApp.Domain.csproj|c:\\users\\kamil\\desktop\\agro\\backend---v4\\agroapp\\agroapp.domain\\entities\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6295D7FA-4DBC-4218-AA2B-0E4DB3CE0219}|agroApp.Domain\\agroApp.Domain.csproj|solutionrelative:agroapp.domain\\entities\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6295D7FA-4DBC-4218-AA2B-0E4DB3CE0219}|agroApp.Domain\\agroApp.Domain.csproj|c:\\users\\kamil\\desktop\\agro\\backend---v4\\agroapp\\agroapp.domain\\entities\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6295D7FA-4DBC-4218-AA2B-0E4DB3CE0219}|agroApp.Domain\\agroApp.Domain.csproj|solutionrelative:agroapp.domain\\entities\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85AA80DB-97E5-41C7-9C73-672BF5A97B30}|agroApp.API\\agroApp.API.csproj|c:\\users\\kamil\\desktop\\agro\\backend---v4\\agroapp\\agroapp.api\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85AA80DB-97E5-41C7-9C73-672BF5A97B30}|agroApp.API\\agroApp.API.csproj|solutionrelative:agroapp.api\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85AA80DB-97E5-41C7-9C73-672BF5A97B30}|agroApp.API\\agroApp.API.csproj|c:\\users\\kamil\\desktop\\agro\\backend---v4\\agroapp\\agroapp.api\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85AA80DB-97E5-41C7-9C73-672BF5A97B30}|agroApp.API\\agroApp.API.csproj|solutionrelative:agroapp.api\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85AA80DB-97E5-41C7-9C73-672BF5A97B30}|agroApp.API\\agroApp.API.csproj|c:\\users\\kamil\\desktop\\agro\\backend---v4\\agroapp\\agroapp.api\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85AA80DB-97E5-41C7-9C73-672BF5A97B30}|agroApp.API\\agroApp.API.csproj|solutionrelative:agroapp.api\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6295D7FA-4DBC-4218-AA2B-0E4DB3CE0219}|agroApp.Domain\\agroApp.Domain.csproj|c:\\users\\kamil\\desktop\\agro\\backend---v4\\agroapp\\agroapp.domain\\validation\\userrolevalidaton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6295D7FA-4DBC-4218-AA2B-0E4DB3CE0219}|agroApp.Domain\\agroApp.Domain.csproj|solutionrelative:agroapp.domain\\validation\\userrolevalidaton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6295D7FA-4DBC-4218-AA2B-0E4DB3CE0219}|agroApp.Domain\\agroApp.Domain.csproj|c:\\users\\kamil\\desktop\\agro\\backend---v4\\agroapp\\agroapp.domain\\validation\\uservalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6295D7FA-4DBC-4218-AA2B-0E4DB3CE0219}|agroApp.Domain\\agroApp.Domain.csproj|solutionrelative:agroapp.domain\\validation\\uservalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85AA80DB-97E5-41C7-9C73-672BF5A97B30}|agroApp.API\\agroApp.API.csproj|c:\\users\\kamil\\desktop\\agro\\backend---v4\\agroapp\\agroapp.api\\services\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85AA80DB-97E5-41C7-9C73-672BF5A97B30}|agroApp.API\\agroApp.API.csproj|solutionrelative:agroapp.api\\services\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85AA80DB-97E5-41C7-9C73-672BF5A97B30}|agroApp.API\\agroApp.API.csproj|c:\\users\\kamil\\desktop\\agro\\backend---v4\\agroapp\\agroapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85AA80DB-97E5-41C7-9C73-672BF5A97B30}|agroApp.API\\agroApp.API.csproj|solutionrelative:agroapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85AA80DB-97E5-41C7-9C73-672BF5A97B30}|agroApp.API\\agroApp.API.csproj|c:\\users\\kamil\\desktop\\agro\\backend---v4\\agroapp\\agroapp.api\\services\\ipostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85AA80DB-97E5-41C7-9C73-672BF5A97B30}|agroApp.API\\agroApp.API.csproj|solutionrelative:agroapp.api\\services\\ipostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3C647AA-E191-4E56-9755-4C8AC66EE2E2}|agroApp.Infra.Data\\agroApp.Infra.Data.csproj|c:\\users\\kamil\\desktop\\agro\\backend---v4\\agroapp\\agroapp.infra.data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3C647AA-E191-4E56-9755-4C8AC66EE2E2}|agroApp.Infra.Data\\agroApp.Infra.Data.csproj|solutionrelative:agroapp.infra.data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3C647AA-E191-4E56-9755-4C8AC66EE2E2}|agroApp.Infra.Data\\agroApp.Infra.Data.csproj|c:\\users\\kamil\\desktop\\agro\\backend---v4\\agroapp\\agroapp.infra.data\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3C647AA-E191-4E56-9755-4C8AC66EE2E2}|agroApp.Infra.Data\\agroApp.Infra.Data.csproj|solutionrelative:agroapp.infra.data\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3C647AA-E191-4E56-9755-4C8AC66EE2E2}|agroApp.Infra.Data\\agroApp.Infra.Data.csproj|c:\\users\\kamil\\desktop\\agro\\backend---v4\\agroapp\\agroapp.infra.data\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3C647AA-E191-4E56-9755-4C8AC66EE2E2}|agroApp.Infra.Data\\agroApp.Infra.Data.csproj|solutionrelative:agroapp.infra.data\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85AA80DB-97E5-41C7-9C73-672BF5A97B30}|agroApp.API\\agroApp.API.csproj|c:\\users\\kamil\\desktop\\agro\\backend---v4\\agroapp\\agroapp.api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85AA80DB-97E5-41C7-9C73-672BF5A97B30}|agroApp.API\\agroApp.API.csproj|solutionrelative:agroapp.api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6295D7FA-4DBC-4218-AA2B-0E4DB3CE0219}|agroApp.Domain\\agroApp.Domain.csproj|c:\\users\\kamil\\desktop\\agro\\backend---v4\\agroapp\\agroapp.domain\\entities\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6295D7FA-4DBC-4218-AA2B-0E4DB3CE0219}|agroApp.Domain\\agroApp.Domain.csproj|solutionrelative:agroapp.domain\\entities\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6295D7FA-4DBC-4218-AA2B-0E4DB3CE0219}|agroApp.Domain\\agroApp.Domain.csproj|c:\\users\\kamil\\desktop\\agro\\backend---v4\\agroapp\\agroapp.domain\\entities\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6295D7FA-4DBC-4218-AA2B-0E4DB3CE0219}|agroApp.Domain\\agroApp.Domain.csproj|solutionrelative:agroapp.domain\\entities\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3C647AA-E191-4E56-9755-4C8AC66EE2E2}|agroApp.Infra.Data\\agroApp.Infra.Data.csproj|c:\\users\\kamil\\desktop\\agro\\backend---v4\\agroapp\\agroapp.infra.data\\repositories\\profilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3C647AA-E191-4E56-9755-4C8AC66EE2E2}|agroApp.Infra.Data\\agroApp.Infra.Data.csproj|solutionrelative:agroapp.infra.data\\repositories\\profilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3C647AA-E191-4E56-9755-4C8AC66EE2E2}|agroApp.Infra.Data\\agroApp.Infra.Data.csproj|c:\\users\\kamil\\desktop\\agro\\backend---v4\\agroapp\\agroapp.infra.data\\repositories\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3C647AA-E191-4E56-9755-4C8AC66EE2E2}|agroApp.Infra.Data\\agroApp.Infra.Data.csproj|solutionrelative:agroapp.infra.data\\repositories\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6295D7FA-4DBC-4218-AA2B-0E4DB3CE0219}|agroApp.Domain\\agroApp.Domain.csproj|c:\\users\\kamil\\desktop\\agro\\backend---v4\\agroapp\\agroapp.domain\\entities\\blogpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6295D7FA-4DBC-4218-AA2B-0E4DB3CE0219}|agroApp.Domain\\agroApp.Domain.csproj|solutionrelative:agroapp.domain\\entities\\blogpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6295D7FA-4DBC-4218-AA2B-0E4DB3CE0219}|agroApp.Domain\\agroApp.Domain.csproj|c:\\users\\kamil\\desktop\\agro\\backend---v4\\agroapp\\agroapp.domain\\validation\\profilevalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6295D7FA-4DBC-4218-AA2B-0E4DB3CE0219}|agroApp.Domain\\agroApp.Domain.csproj|solutionrelative:agroapp.domain\\validation\\profilevalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85AA80DB-97E5-41C7-9C73-672BF5A97B30}|agroApp.API\\agroApp.API.csproj|c:\\users\\kamil\\desktop\\agro\\backend---v4\\agroapp\\agroapp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{85AA80DB-97E5-41C7-9C73-672BF5A97B30}|agroApp.API\\agroApp.API.csproj|solutionrelative:agroapp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85AA80DB-97E5-41C7-9C73-672BF5A97B30}|agroApp.API\\agroApp.API.csproj|c:\\users\\kamil\\desktop\\agro\\backend---v4\\agroapp\\agroapp.api\\dtos\\blogpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85AA80DB-97E5-41C7-9C73-672BF5A97B30}|agroApp.API\\agroApp.API.csproj|solutionrelative:agroapp.api\\dtos\\blogpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6295D7FA-4DBC-4218-AA2B-0E4DB3CE0219}|agroApp.Domain\\agroApp.Domain.csproj|c:\\users\\kamil\\desktop\\agro\\backend---v4\\agroapp\\agroapp.domain\\validation\\blogpostvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6295D7FA-4DBC-4218-AA2B-0E4DB3CE0219}|agroApp.Domain\\agroApp.Domain.csproj|solutionrelative:agroapp.domain\\validation\\blogpostvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3C647AA-E191-4E56-9755-4C8AC66EE2E2}|agroApp.Infra.Data\\agroApp.Infra.Data.csproj|c:\\users\\kamil\\desktop\\agro\\backend---v4\\agroapp\\agroapp.infra.data\\repositories\\blogpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3C647AA-E191-4E56-9755-4C8AC66EE2E2}|agroApp.Infra.Data\\agroApp.Infra.Data.csproj|solutionrelative:agroapp.infra.data\\repositories\\blogpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3C647AA-E191-4E56-9755-4C8AC66EE2E2}|agroApp.Infra.Data\\agroApp.Infra.Data.csproj|c:\\users\\kamil\\desktop\\agro\\backend---v4\\agroapp\\agroapp.infra.data\\repositories\\iblogpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3C647AA-E191-4E56-9755-4C8AC66EE2E2}|agroApp.Infra.Data\\agroApp.Infra.Data.csproj|solutionrelative:agroapp.infra.data\\repositories\\iblogpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Aplication\\Services\\AuthService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:agroApp.Aplication\\Services\\AuthService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85AA80DB-97E5-41C7-9C73-672BF5A97B30}|agroApp.API\\agroApp.API.csproj|c:\\users\\kamil\\desktop\\agro\\backend---v4\\agroapp\\agroapp.api\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85AA80DB-97E5-41C7-9C73-672BF5A97B30}|agroApp.API\\agroApp.API.csproj|solutionrelative:agroapp.api\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Infra.Data\\AppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:agroApp.Infra.Data\\AppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Domain\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:agroApp.Domain\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Domain\\Post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:agroApp.Domain\\Post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +166,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,64 +174,473 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\Users\\kamil\\Downloads\\Nova pasta\\backend---v4\\agroApp\\agroApp.Domain.Test\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "agroApp.Domain.Test\\UnitTest1.cs",
-              "ToolTip": "C:\\Users\\kamil\\Downloads\\Nova pasta\\backend---v4\\agroApp\\agroApp.Domain.Test\\UnitTest1.cs",
-              "RelativeToolTip": "agroApp.Domain.Test\\UnitTest1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "agroApp.Infra.Ioc.csproj",
+              "DocumentMoniker": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Infra.Ioc\\agroApp.Infra.Ioc.csproj",
+              "RelativeDocumentMoniker": "agroApp.Infra.Ioc\\agroApp.Infra.Ioc.csproj",
+              "ToolTip": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Infra.Ioc\\agroApp.Infra.Ioc.csproj",
+              "RelativeToolTip": "agroApp.Infra.Ioc\\agroApp.Infra.Ioc.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-02T22:49:26.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "agroApp.Domain.Test.csproj",
+              "DocumentMoniker": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Domain.Test\\agroApp.Domain.Test.csproj",
+              "RelativeDocumentMoniker": "agroApp.Domain.Test\\agroApp.Domain.Test.csproj",
+              "ToolTip": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Domain.Test\\agroApp.Domain.Test.csproj",
+              "RelativeToolTip": "agroApp.Domain.Test\\agroApp.Domain.Test.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-02T22:49:09.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Infra.Data\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "agroApp.Infra.Data\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Infra.Data\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "agroApp.Infra.Data\\Repositories\\UserRepository.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAwwBgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T17:55:54.986Z",
+              "WhenOpened": "2024-09-27T15:15:49.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Profile.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Domain\\Entities\\Profile.cs",
+              "RelativeDocumentMoniker": "agroApp.Domain\\Entities\\Profile.cs",
+              "ToolTip": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Domain\\Entities\\Profile.cs",
+              "RelativeToolTip": "agroApp.Domain\\Entities\\Profile.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAIBJwBEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T13:52:37.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.API\\Program.cs",
+              "RelativeDocumentMoniker": "agroApp.API\\Program.cs",
+              "ToolTip": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.API\\Program.cs",
+              "RelativeToolTip": "agroApp.API\\Program.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAkwCkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T19:48:06.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Domain\\Entities\\Role.cs",
+              "RelativeDocumentMoniker": "agroApp.Domain\\Entities\\Role.cs",
+              "ToolTip": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Domain\\Entities\\Role.cs",
+              "RelativeToolTip": "agroApp.Domain\\Entities\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T13:53:00.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Post.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Domain\\Entities\\Post.cs",
+              "RelativeDocumentMoniker": "agroApp.Domain\\Entities\\Post.cs",
+              "ToolTip": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Domain\\Entities\\Post.cs",
+              "RelativeToolTip": "agroApp.Domain\\Entities\\Post.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAUwBgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T13:53:02.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Domain\\Entities\\UserRole.cs",
+              "RelativeDocumentMoniker": "agroApp.Domain\\Entities\\UserRole.cs",
+              "ToolTip": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Domain\\Entities\\UserRole.cs",
+              "RelativeToolTip": "agroApp.Domain\\Entities\\UserRole.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T14:48:29.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "agroApp.Aplication.csproj",
+              "DocumentMoniker": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Aplication\\agroApp.Aplication.csproj",
+              "RelativeDocumentMoniker": "agroApp.Aplication\\agroApp.Aplication.csproj",
+              "ToolTip": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Aplication\\agroApp.Aplication.csproj",
+              "RelativeToolTip": "agroApp.Aplication\\agroApp.Aplication.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-22T18:58:56.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "agroApp.Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj",
+              "RelativeDocumentMoniker": "agroApp.Domain\\agroApp.Domain.csproj",
+              "ToolTip": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj",
+              "RelativeToolTip": "agroApp.Domain\\agroApp.Domain.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-22T18:48:38.262Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\kamil\\Downloads\\Nova pasta\\backend---v4\\agroApp\\agroApp.Infra.Ioc\\Class1.cs",
-              "RelativeDocumentMoniker": "agroApp.Infra.Ioc\\Class1.cs",
-              "ToolTip": "C:\\Users\\kamil\\Downloads\\Nova pasta\\backend---v4\\agroApp\\agroApp.Infra.Ioc\\Class1.cs",
-              "RelativeToolTip": "agroApp.Infra.Ioc\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "agroApp.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "agroApp.Domain\\Entities\\User.cs",
+              "ViewState": "AQIAAAAAAADAEZZ7ZMcUwA4AAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T17:55:16.977Z"
+              "WhenOpened": "2024-09-28T22:07:59.055Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\kamil\\Downloads\\Nova pasta\\backend---v4\\agroApp\\agroApp.Infra.Data\\Class1.cs",
-              "RelativeDocumentMoniker": "agroApp.Infra.Data\\Class1.cs",
-              "ToolTip": "C:\\Users\\kamil\\Downloads\\Nova pasta\\backend---v4\\agroApp\\agroApp.Infra.Data\\Class1.cs",
-              "RelativeToolTip": "agroApp.Infra.Data\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T17:54:46.518Z"
+              "DocumentIndex": 5,
+              "Title": "agroApp.Infra.Data.csproj",
+              "DocumentMoniker": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Infra.Data\\agroApp.Infra.Data.csproj",
+              "RelativeDocumentMoniker": "agroApp.Infra.Data\\agroApp.Infra.Data.csproj",
+              "ToolTip": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Infra.Data\\agroApp.Infra.Data.csproj",
+              "RelativeToolTip": "agroApp.Infra.Data\\agroApp.Infra.Data.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-02T22:49:17.729Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\kamil\\Downloads\\Nova pasta\\backend---v4\\agroApp\\agroApp.Aplication\\Class1.cs",
-              "RelativeDocumentMoniker": "agroApp.Aplication\\Class1.cs",
-              "ToolTip": "C:\\Users\\kamil\\Downloads\\Nova pasta\\backend---v4\\agroApp\\agroApp.Aplication\\Class1.cs",
-              "RelativeToolTip": "agroApp.Aplication\\Class1.cs",
+              "DocumentIndex": 22,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.API\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "agroApp.API\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.API\\WeatherForecast.cs",
+              "RelativeToolTip": "agroApp.API\\WeatherForecast.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T17:53:48.505Z"
+              "WhenOpened": "2024-09-27T15:21:00.185Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\kamil\\Downloads\\Nova pasta\\backend---v4\\agroApp\\agroApp.Domain\\Class1.cs",
-              "RelativeDocumentMoniker": "agroApp.Domain\\Class1.cs",
-              "ToolTip": "C:\\Users\\kamil\\Downloads\\Nova pasta\\backend---v4\\agroApp\\agroApp.Domain\\Class1.cs",
-              "RelativeToolTip": "agroApp.Domain\\Class1.cs",
+              "DocumentIndex": 20,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Infra.Data\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "agroApp.Infra.Data\\Repositories\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Infra.Data\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "agroApp.Infra.Data\\Repositories\\IUserRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T17:51:35.342Z"
+              "WhenOpened": "2024-09-27T15:16:00.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "agroApp.API.csproj",
+              "DocumentMoniker": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.API\\agroApp.API.csproj",
+              "RelativeDocumentMoniker": "agroApp.API\\agroApp.API.csproj",
+              "ToolTip": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.API\\agroApp.API.csproj",
+              "RelativeToolTip": "agroApp.API\\agroApp.API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-27T13:27:34.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "agroApp.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "agroApp.API\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T19:02:31.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PostService.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.API\\Services\\PostService.cs",
+              "RelativeDocumentMoniker": "agroApp.API\\Services\\PostService.cs",
+              "ToolTip": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.API\\Services\\PostService.cs",
+              "RelativeToolTip": "agroApp.API\\Services\\PostService.cs",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAowGcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T21:48:56.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RegisterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.API\\DTOs\\RegisterDTO.cs",
+              "RelativeDocumentMoniker": "agroApp.API\\DTOs\\RegisterDTO.cs",
+              "ToolTip": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.API\\DTOs\\RegisterDTO.cs",
+              "RelativeToolTip": "agroApp.API\\DTOs\\RegisterDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T23:01:43.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserRoleValidaton.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Domain\\Validation\\UserRoleValidaton.cs",
+              "RelativeDocumentMoniker": "agroApp.Domain\\Validation\\UserRoleValidaton.cs",
+              "ToolTip": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Domain\\Validation\\UserRoleValidaton.cs",
+              "RelativeToolTip": "agroApp.Domain\\Validation\\UserRoleValidaton.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T22:08:05.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.API\\DTOs\\LoginDto.cs",
+              "RelativeDocumentMoniker": "agroApp.API\\DTOs\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.API\\DTOs\\LoginDto.cs",
+              "RelativeToolTip": "agroApp.API\\DTOs\\LoginDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T23:03:13.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.API\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "agroApp.API\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.API\\Services\\AuthService.cs",
+              "RelativeToolTip": "agroApp.API\\Services\\AuthService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T22:07:17.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserValidation.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Domain\\Validation\\UserValidation.cs",
+              "RelativeDocumentMoniker": "agroApp.Domain\\Validation\\UserValidation.cs",
+              "ToolTip": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Domain\\Validation\\UserValidation.cs",
+              "RelativeToolTip": "agroApp.Domain\\Validation\\UserValidation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T22:08:09.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Infra.Data\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "agroApp.Infra.Data\\Context\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Infra.Data\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "agroApp.Infra.Data\\Context\\AppDbContext.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAIBJwA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T19:03:44.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IPostService.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.API\\Services\\IPostService.cs",
+              "RelativeDocumentMoniker": "agroApp.API\\Services\\IPostService.cs",
+              "ToolTip": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.API\\Services\\IPostService.cs",
+              "RelativeToolTip": "agroApp.API\\Services\\IPostService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T21:47:29.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "PostRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Infra.Data\\Repositories\\PostRepository.cs",
+              "RelativeDocumentMoniker": "agroApp.Infra.Data\\Repositories\\PostRepository.cs",
+              "ToolTip": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Infra.Data\\Repositories\\PostRepository.cs",
+              "RelativeToolTip": "agroApp.Infra.Data\\Repositories\\PostRepository.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAuwDoAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T19:48:36.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ProfileRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Infra.Data\\Repositories\\ProfileRepository.cs",
+              "RelativeDocumentMoniker": "agroApp.Infra.Data\\Repositories\\ProfileRepository.cs",
+              "ToolTip": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Infra.Data\\Repositories\\ProfileRepository.cs",
+              "RelativeToolTip": "agroApp.Infra.Data\\Repositories\\ProfileRepository.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAuwDMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T19:48:50.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Connection.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Domain\\Entities\\Connection.cs",
+              "RelativeDocumentMoniker": "agroApp.Domain\\Entities\\Connection.cs",
+              "ToolTip": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Domain\\Entities\\Connection.cs",
+              "RelativeToolTip": "agroApp.Domain\\Entities\\Connection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T14:08:31.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "BlogPost.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Domain\\Entities\\BlogPost.cs",
+              "RelativeDocumentMoniker": "agroApp.Domain\\Entities\\BlogPost.cs",
+              "ToolTip": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Domain\\Entities\\BlogPost.cs",
+              "RelativeToolTip": "agroApp.Domain\\Entities\\BlogPost.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAgAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T18:15:39.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ProfileValidation.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Domain\\Validation\\ProfileValidation.cs",
+              "RelativeDocumentMoniker": "agroApp.Domain\\Validation\\ProfileValidation.cs",
+              "ToolTip": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Domain\\Validation\\ProfileValidation.cs",
+              "RelativeToolTip": "agroApp.Domain\\Validation\\ProfileValidation.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAA8wBEAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T14:42:21.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.API\\appsettings.json",
+              "RelativeDocumentMoniker": "agroApp.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.API\\appsettings.json",
+              "RelativeToolTip": "agroApp.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAC2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-26T19:51:22.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IBlogPostRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Infra.Data\\Repositories\\IBlogPostRepository.cs",
+              "RelativeDocumentMoniker": "agroApp.Infra.Data\\Repositories\\IBlogPostRepository.cs",
+              "ToolTip": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Infra.Data\\Repositories\\IBlogPostRepository.cs",
+              "RelativeToolTip": "agroApp.Infra.Data\\Repositories\\IBlogPostRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T19:05:58.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "BlogPostRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Infra.Data\\Repositories\\BlogPostRepository.cs",
+              "RelativeDocumentMoniker": "agroApp.Infra.Data\\Repositories\\BlogPostRepository.cs",
+              "ToolTip": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Infra.Data\\Repositories\\BlogPostRepository.cs",
+              "RelativeToolTip": "agroApp.Infra.Data\\Repositories\\BlogPostRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T18:58:32.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "BlogPostValidation.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Domain\\Validation\\BlogPostValidation.cs",
+              "RelativeDocumentMoniker": "agroApp.Domain\\Validation\\BlogPostValidation.cs",
+              "ToolTip": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Domain\\Validation\\BlogPostValidation.cs",
+              "RelativeToolTip": "agroApp.Domain\\Validation\\BlogPostValidation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T18:54:49.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "BlogPostDTO.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.API\\DTOs\\BlogPostDTO.cs",
+              "RelativeDocumentMoniker": "agroApp.API\\DTOs\\BlogPostDTO.cs",
+              "ToolTip": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.API\\DTOs\\BlogPostDTO.cs",
+              "RelativeToolTip": "agroApp.API\\DTOs\\BlogPostDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T18:54:17.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "BlogController.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.API\\Controllers\\BlogController.cs",
+              "RelativeDocumentMoniker": "agroApp.API\\Controllers\\BlogController.cs",
+              "ToolTip": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.API\\Controllers\\BlogController.cs",
+              "RelativeToolTip": "agroApp.API\\Controllers\\BlogController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T18:16:29.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Aplication\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "agroApp.Aplication\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Aplication\\Services\\AuthService.cs",
+              "RelativeToolTip": "agroApp.Aplication\\Services\\AuthService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T18:59:10.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Infra.Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "agroApp.Infra.Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Infra.Data\\AppDbContext.cs",
+              "RelativeToolTip": "agroApp.Infra.Data\\AppDbContext.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T18:55:58.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Domain\\User.cs",
+              "RelativeDocumentMoniker": "agroApp.Domain\\User.cs",
+              "ToolTip": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Domain\\User.cs",
+              "RelativeToolTip": "agroApp.Domain\\User.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T19:14:37.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Post.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Domain\\Post.cs",
+              "RelativeDocumentMoniker": "agroApp.Domain\\Post.cs",
+              "ToolTip": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Domain\\Post.cs",
+              "RelativeToolTip": "agroApp.Domain\\Post.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T18:51:03.126Z"
             }
           ]
         }

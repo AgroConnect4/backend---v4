@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("agroApp.Infra.Ioc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a36766eaebda9d05cd865a943b3bc87c9845db5b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c0b1294797fe33e9dcbccb531e0883ffc6818cf")]
 [assembly: System.Reflection.AssemblyProductAttribute("agroApp.Infra.Ioc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("agroApp.Infra.Ioc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

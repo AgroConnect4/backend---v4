@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "agroApp.Domain", "agroApp.Domain\agroApp.Domain.csproj", "{6295D7FA-4DBC-4218-AA2B-0E4DB3CE0219}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "agroApp.Domain", "agroApp.Domain\agroApp.Domain.csproj", "{6295D7FA-4DBC-4218-AA2B-0E4DB3CE0219}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "agroApp.API", "agroApp.API\agroApp.API.csproj", "{85AA80DB-97E5-41C7-9C73-672BF5A97B30}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "agroApp.API", "agroApp.API\agroApp.API.csproj", "{85AA80DB-97E5-41C7-9C73-672BF5A97B30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "agroApp.Aplication", "agroApp.Aplication\agroApp.Aplication.csproj", "{49324C4F-6E5B-4EA4-B561-B45AAFC2BA1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "agroApp.Aplication", "agroApp.Aplication\agroApp.Aplication.csproj", "{49324C4F-6E5B-4EA4-B561-B45AAFC2BA1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "agroApp.Infra.Data", "agroApp.Infra.Data\agroApp.Infra.Data.csproj", "{B3C647AA-E191-4E56-9755-4C8AC66EE2E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "agroApp.Infra.Data", "agroApp.Infra.Data\agroApp.Infra.Data.csproj", "{B3C647AA-E191-4E56-9755-4C8AC66EE2E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "agroApp.Infra.Ioc", "agroApp.Infra.Ioc\agroApp.Infra.Ioc.csproj", "{20CE3BB5-FC24-448E-80A5-58A8CF5B8703}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "agroApp.Infra.Ioc", "agroApp.Infra.Ioc\agroApp.Infra.Ioc.csproj", "{20CE3BB5-FC24-448E-80A5-58A8CF5B8703}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "agroApp.Domain.Test", "agroApp.Domain.Test\agroApp.Domain.Test.csproj", "{3965BF54-45ED-4419-81D1-8E47888D8134}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "agroApp.Domain.Test", "agroApp.Domain.Test\agroApp.Domain.Test.csproj", "{3965BF54-45ED-4419-81D1-8E47888D8134}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
