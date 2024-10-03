@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "K7GdGObGIc6WC43Hn9wDySVd+AoJMwHNa15aIAPia8k=",
+  "Source": "agroApp.API",
+  "BasePath": "_content/agroApp.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -6,8 +6,6 @@ namespace agroApp.Domain.Test
         public void Test1()
         {
 
-
-
         }
     }
 }

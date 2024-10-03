@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj": {}
+    "C:\\Users\\kamil\\Desktop\\agro\\agro\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj": {
+    "C:\\Users\\kamil\\Desktop\\agro\\agro\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\kamil\\Desktop\\agro\\agro\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj",
         "projectName": "agroApp.Domain",
-        "projectPath": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj",
+        "projectPath": "C:\\Users\\kamil\\Desktop\\agro\\agro\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj",
         "packagesPath": "C:\\Users\\kamil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kamil\\Desktop\\agro\\backend---v4\\agroApp\\agroApp.Domain\\obj\\",
+        "outputPath": "C:\\Users\\kamil\\Desktop\\agro\\agro\\backend---v4\\agroApp\\agroApp.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kamil\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -42,8 +42,30 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.10.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.10.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -60,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
