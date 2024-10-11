@@ -1,5 +1,5 @@
 using agroApp.Domain.Entities;
-using agroApp.Domain.Repositories;
+using agroApp.Infra.Data.Repositories;
 using agroApp.Infra.Data.Context;
 using Microsoft.EntityFrameworkCore;
 using System;

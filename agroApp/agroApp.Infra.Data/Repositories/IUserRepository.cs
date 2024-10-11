@@ -12,5 +12,6 @@ namespace agroApp.Infra.Data.Repositories
         Task<User> AddAsync(User user);
         Task<User> UpdateAsync(User user);
         Task DeleteAsync(int userId);
+        Task<User> GetUserByIdAsync(int userId);  
     }
 }

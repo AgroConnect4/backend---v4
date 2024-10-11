@@ -11,16 +11,14 @@ namespace agroApp.Infra.Data.Context
         public DbSet<Profile> Profiles { get; set; }
         public DbSet<Connection> Connections { get; set; }
         public DbSet<BlogPost> BlogPosts { get; set; }
+        public DbSet<Event> Events { get; set; }
 
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
-
-      
-
         //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         //{
-        //    // Adicione a linha abaixo se ainda não estiver configurada
-        //    optionsBuilder.UseSqlServer("Data Source=sqlserveragroconnect.database.windows.net;Initial Catalog=sql_agroconnect;User ID=kamydados;Password=Pacoca2005.;Connect Timeout=30;Encrypt=True",
+             //Adicione a linha abaixo se ainda não estiver configurada
+         //   optionsBuilder.UseSqlServer("Data Source = sqlserveragroconnect.database.windows.net; Initial Catalog = sql_agroconnect; User ID = kamydados; Password = Pacoca2005.; Connect Timeout = 30; Encrypt = True;",
         //        b => b.MigrationsAssembly("agroApp.Infra.Data"));
         //}
 
@@ -40,9 +38,23 @@ namespace agroApp.Infra.Data.Context
                 .WithMany(u => u.Posts)
                 .HasForeignKey(p => p.UserId);
 
-            // Configuração para BlogPost, se necessário
-            // ...
-        }
+            modelBuilder.Entity<Event>()
+                .HasOne(e => e.User)
+                .WithMany(u => u.OrganizedEvents)
+                .HasForeignKey(e => e.UserId);
 
+             modelBuilder.Entity<Connection>()
+            .HasOne(c => c.User)
+            .WithMany()
+            .HasForeignKey(c => c.UserId)
+            .OnDelete(DeleteBehavior.Cascade); // Mantém a exclusão em cascata para User
+
+            modelBuilder.Entity<Connection>()
+            .HasOne(c => c.ConnectedUser)
+            .WithMany()
+            .HasForeignKey(c => c.ConnectedUserId)
+            .OnDelete(DeleteBehavior.NoAction); 
+        
     }
+}
 }

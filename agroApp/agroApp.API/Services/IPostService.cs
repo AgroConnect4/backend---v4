@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using agroApp.API.DTOs;
 
-namespace agroApp.Application.Services
+namespace agroApp.API.Services
 {
     public interface IPostService
     {

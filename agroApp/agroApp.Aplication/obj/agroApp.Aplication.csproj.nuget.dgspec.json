@@ -1,38 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kamil\\Desktop\\git\\backend---v4\\agroApp\\agroApp.Aplication\\agroApp.Aplication.csproj": {}
+    "C:\\AgroConnectEnviar\\backend---v4\\agroApp\\agroApp.Aplication\\agroApp.Aplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kamil\\Desktop\\git\\backend---v4\\agroApp\\agroApp.Aplication\\agroApp.Aplication.csproj": {
+    "C:\\AgroConnectEnviar\\backend---v4\\agroApp\\agroApp.Aplication\\agroApp.Aplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kamil\\Desktop\\git\\backend---v4\\agroApp\\agroApp.Aplication\\agroApp.Aplication.csproj",
+        "projectUniqueName": "C:\\AgroConnectEnviar\\backend---v4\\agroApp\\agroApp.Aplication\\agroApp.Aplication.csproj",
         "projectName": "agroApp.Aplication",
-        "projectPath": "C:\\Users\\kamil\\Desktop\\git\\backend---v4\\agroApp\\agroApp.Aplication\\agroApp.Aplication.csproj",
-        "packagesPath": "C:\\Users\\kamil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kamil\\Desktop\\git\\backend---v4\\agroApp\\agroApp.Aplication\\obj\\",
+        "projectPath": "C:\\AgroConnectEnviar\\backend---v4\\agroApp\\agroApp.Aplication\\agroApp.Aplication.csproj",
+        "packagesPath": "C:\\Users\\DanielM\\.nuget\\packages\\",
+        "outputPath": "C:\\AgroConnectEnviar\\backend---v4\\agroApp\\agroApp.Aplication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kamil\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\DanielM\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\kamil\\Desktop\\git\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj": {
-                "projectPath": "C:\\Users\\kamil\\Desktop\\git\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj"
+              "C:\\AgroConnectEnviar\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj": {
+                "projectPath": "C:\\AgroConnectEnviar\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj"
               },
-              "C:\\Users\\kamil\\Desktop\\git\\backend---v4\\agroApp\\agroApp.Infra.Data\\agroApp.Infra.Data.csproj": {
-                "projectPath": "C:\\Users\\kamil\\Desktop\\git\\backend---v4\\agroApp\\agroApp.Infra.Data\\agroApp.Infra.Data.csproj"
+              "C:\\AgroConnectEnviar\\backend---v4\\agroApp\\agroApp.Infra.Data\\agroApp.Infra.Data.csproj": {
+                "projectPath": "C:\\AgroConnectEnviar\\backend---v4\\agroApp\\agroApp.Infra.Data\\agroApp.Infra.Data.csproj"
               }
             }
           }
@@ -77,28 +75,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\kamil\\Desktop\\git\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj": {
+    "C:\\AgroConnectEnviar\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kamil\\Desktop\\git\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj",
+        "projectUniqueName": "C:\\AgroConnectEnviar\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj",
         "projectName": "agroApp.Domain",
-        "projectPath": "C:\\Users\\kamil\\Desktop\\git\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj",
-        "packagesPath": "C:\\Users\\kamil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kamil\\Desktop\\git\\backend---v4\\agroApp\\agroApp.Domain\\obj\\",
+        "projectPath": "C:\\AgroConnectEnviar\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj",
+        "packagesPath": "C:\\Users\\DanielM\\.nuget\\packages\\",
+        "outputPath": "C:\\AgroConnectEnviar\\backend---v4\\agroApp\\agroApp.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kamil\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\DanielM\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -159,36 +155,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\kamil\\Desktop\\git\\backend---v4\\agroApp\\agroApp.Infra.Data\\agroApp.Infra.Data.csproj": {
+    "C:\\AgroConnectEnviar\\backend---v4\\agroApp\\agroApp.Infra.Data\\agroApp.Infra.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kamil\\Desktop\\git\\backend---v4\\agroApp\\agroApp.Infra.Data\\agroApp.Infra.Data.csproj",
+        "projectUniqueName": "C:\\AgroConnectEnviar\\backend---v4\\agroApp\\agroApp.Infra.Data\\agroApp.Infra.Data.csproj",
         "projectName": "agroApp.Infra.Data",
-        "projectPath": "C:\\Users\\kamil\\Desktop\\git\\backend---v4\\agroApp\\agroApp.Infra.Data\\agroApp.Infra.Data.csproj",
-        "packagesPath": "C:\\Users\\kamil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kamil\\Desktop\\git\\backend---v4\\agroApp\\agroApp.Infra.Data\\obj\\",
+        "projectPath": "C:\\AgroConnectEnviar\\backend---v4\\agroApp\\agroApp.Infra.Data\\agroApp.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\DanielM\\.nuget\\packages\\",
+        "outputPath": "C:\\AgroConnectEnviar\\backend---v4\\agroApp\\agroApp.Infra.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kamil\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\DanielM\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\kamil\\Desktop\\git\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj": {
-                "projectPath": "C:\\Users\\kamil\\Desktop\\git\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj"
+              "C:\\AgroConnectEnviar\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj": {
+                "projectPath": "C:\\AgroConnectEnviar\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj"
               }
             }
           }
@@ -227,6 +221,12 @@
             "Microsoft.Data.SqlClient": {
               "target": "Package",
               "version": "[5.2.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -271,7 +271,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,7 +1,5 @@
 using agroApp.API.Services;
-using agroApp.Application.Services;
 using agroApp.Domain.Entities;
-using agroApp.Domain.Repositories;
 using agroApp.Infra.Data.Context;
 using agroApp.Infra.Data.Repositories;
 using Microsoft.AspNetCore.Identity;
@@ -16,7 +14,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Configurar Entity Framework com SQL Server e definir a assembly de migrações
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer("Data Source = sqlserveragroconnect.database.windows.net; Initial Catalog = sql_agroconnect; User ID = kamydados; Password = Pacoca2005.; Connect Timeout = 30; Encrypt = True; ",
-        b => b.MigrationsAssembly("agroApp.Infra.Data")));
+    b => b.MigrationsAssembly("agroApp.Infra.Data")));
 
 // Configurar ASP.NET Identity
 builder.Services.AddIdentity<User, IdentityRole>()
@@ -28,6 +26,8 @@ builder.Services.AddScoped<SignInManager<User>>();
 // Adicionar o serviço de autenticação (AuthService)
 builder.Services.AddScoped<IAuthService, AuthService>();
 
+builder.Services.AddScoped<IEventsService, EventsService>(); 
+
 // Adicionar o serviço de PostService
 builder.Services.AddScoped<IPostService, PostService>();
 
@@ -36,6 +36,8 @@ builder.Services.AddScoped<IPostRepository, PostRepository>();
 
 // Registar o repositório de UserRepository
 builder.Services.AddScoped<IUserRepository, UserRepository>(); // Adição necessária
+
+builder.Services.AddScoped<IEventRepository, EventRepository>();
 
 // Adicionar serviços de controladores
 builder.Services.AddControllers();

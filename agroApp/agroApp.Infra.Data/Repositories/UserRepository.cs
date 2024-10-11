@@ -1,5 +1,5 @@
 using agroApp.Domain.Entities;
-using agroApp.Domain.Repositories;
+using agroApp.Infra.Data.Repositories;
 using agroApp.Infra.Data.Context;
 
 using Microsoft.EntityFrameworkCore;
@@ -50,6 +50,11 @@ namespace agroApp.Infra.Data.Repositories
                 _context.Users.Remove(user);
                 await _context.SaveChangesAsync();
             }
+        }
+
+        public async Task<User> GetUserByIdAsync(int userId)
+        {
+            return await _context.Users.FindAsync(userId);
         }
     }
 }

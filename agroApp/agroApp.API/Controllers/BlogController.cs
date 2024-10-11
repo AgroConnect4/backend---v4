@@ -1,14 +1,11 @@
-﻿using agroApp.API.DTOs;
+﻿/*using agroApp.API.DTOs;
 using agroApp.Domain.Entities;
 using agroApp.Infra.Data.Context;
 using agroApp.Infra.Data.Repositories;
 using FluentValidation;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-
 using System.Security.Claims;
-
-
 
 namespace agroApp.API.Controllers
 {
@@ -79,6 +76,5 @@ namespace agroApp.API.Controllers
             return User.FindFirst(ClaimTypes.NameIdentifier)?.Value; // Retorna o ID do usuário autenticado
         }
     }
-
-
 }
+*/
