@@ -70,3 +70,15 @@ C:\backend---v4\agroApp\agroApp.Infra.Ioc\obj\Debug\net8.0\agroApp.Infra.Ioc.dll
 C:\backend---v4\agroApp\agroApp.Infra.Ioc\obj\Debug\net8.0\refint\agroApp.Infra.Ioc.dll
 C:\backend---v4\agroApp\agroApp.Infra.Ioc\obj\Debug\net8.0\agroApp.Infra.Ioc.pdb
 C:\backend---v4\agroApp\agroApp.Infra.Ioc\obj\Debug\net8.0\ref\agroApp.Infra.Ioc.dll
+C:\ENTREGAR\backend---v4\agroApp\agroApp.Infra.Ioc\bin\Debug\net8.0\agroApp.Infra.Ioc.deps.json
+C:\ENTREGAR\backend---v4\agroApp\agroApp.Infra.Ioc\bin\Debug\net8.0\agroApp.Infra.Ioc.dll
+C:\ENTREGAR\backend---v4\agroApp\agroApp.Infra.Ioc\bin\Debug\net8.0\agroApp.Infra.Ioc.pdb
+C:\ENTREGAR\backend---v4\agroApp\agroApp.Infra.Ioc\obj\Debug\net8.0\agroApp.Infra.Ioc.GeneratedMSBuildEditorConfig.editorconfig
+C:\ENTREGAR\backend---v4\agroApp\agroApp.Infra.Ioc\obj\Debug\net8.0\agroApp.Infra.Ioc.AssemblyInfoInputs.cache
+C:\ENTREGAR\backend---v4\agroApp\agroApp.Infra.Ioc\obj\Debug\net8.0\agroApp.Infra.Ioc.AssemblyInfo.cs
+C:\ENTREGAR\backend---v4\agroApp\agroApp.Infra.Ioc\obj\Debug\net8.0\agroApp.Infra.Ioc.csproj.CoreCompileInputs.cache
+C:\ENTREGAR\backend---v4\agroApp\agroApp.Infra.Ioc\obj\Debug\net8.0\agroApp.Infra.Ioc.sourcelink.json
+C:\ENTREGAR\backend---v4\agroApp\agroApp.Infra.Ioc\obj\Debug\net8.0\agroApp.Infra.Ioc.dll
+C:\ENTREGAR\backend---v4\agroApp\agroApp.Infra.Ioc\obj\Debug\net8.0\refint\agroApp.Infra.Ioc.dll
+C:\ENTREGAR\backend---v4\agroApp\agroApp.Infra.Ioc\obj\Debug\net8.0\agroApp.Infra.Ioc.pdb
+C:\ENTREGAR\backend---v4\agroApp\agroApp.Infra.Ioc\obj\Debug\net8.0\ref\agroApp.Infra.Ioc.dll

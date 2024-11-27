@@ -102,3 +102,16 @@ C:\backend---v4\agroApp\agroApp.Domain\obj\Debug\net8.0\agroApp.Domain.dll
 C:\backend---v4\agroApp\agroApp.Domain\obj\Debug\net8.0\refint\agroApp.Domain.dll
 C:\backend---v4\agroApp\agroApp.Domain\obj\Debug\net8.0\agroApp.Domain.pdb
 C:\backend---v4\agroApp\agroApp.Domain\obj\Debug\net8.0\ref\agroApp.Domain.dll
+C:\ENTREGAR\backend---v4\agroApp\agroApp.Domain\bin\Debug\net8.0\agroApp.Domain.deps.json
+C:\ENTREGAR\backend---v4\agroApp\agroApp.Domain\bin\Debug\net8.0\agroApp.Domain.dll
+C:\ENTREGAR\backend---v4\agroApp\agroApp.Domain\bin\Debug\net8.0\agroApp.Domain.pdb
+C:\ENTREGAR\backend---v4\agroApp\agroApp.Domain\obj\Debug\net8.0\agroApp.Domain.csproj.AssemblyReference.cache
+C:\ENTREGAR\backend---v4\agroApp\agroApp.Domain\obj\Debug\net8.0\agroApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\ENTREGAR\backend---v4\agroApp\agroApp.Domain\obj\Debug\net8.0\agroApp.Domain.AssemblyInfoInputs.cache
+C:\ENTREGAR\backend---v4\agroApp\agroApp.Domain\obj\Debug\net8.0\agroApp.Domain.AssemblyInfo.cs
+C:\ENTREGAR\backend---v4\agroApp\agroApp.Domain\obj\Debug\net8.0\agroApp.Domain.csproj.CoreCompileInputs.cache
+C:\ENTREGAR\backend---v4\agroApp\agroApp.Domain\obj\Debug\net8.0\agroApp.Domain.sourcelink.json
+C:\ENTREGAR\backend---v4\agroApp\agroApp.Domain\obj\Debug\net8.0\agroApp.Domain.dll
+C:\ENTREGAR\backend---v4\agroApp\agroApp.Domain\obj\Debug\net8.0\refint\agroApp.Domain.dll
+C:\ENTREGAR\backend---v4\agroApp\agroApp.Domain\obj\Debug\net8.0\agroApp.Domain.pdb
+C:\ENTREGAR\backend---v4\agroApp\agroApp.Domain\obj\Debug\net8.0\ref\agroApp.Domain.dll
