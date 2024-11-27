@@ -7,10 +7,13 @@ namespace agroApp.Infra.Data.Repositories
 {
     public interface IUserRepository
     {
-        Task<User> GetByIdAsync(int userId);
+        Task<User> GetByIdAsync(Guid userId);
         Task<User> GetByEmailAsync(string email);
         Task<User> AddAsync(User user);
         Task<User> UpdateAsync(User user);
-        Task DeleteAsync(int userId);
+        Task DeleteAsync(Guid userId);
+        Task<User> GetUserByIdAsync(Guid userId);
+        Task<List<User>> GetAllUsersAsync();
+        Task<Connection> GetConnectedUserIdAsync(Guid connectionId);
     }
 }

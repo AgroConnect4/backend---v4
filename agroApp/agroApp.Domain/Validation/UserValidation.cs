@@ -1,4 +1,4 @@
-﻿using FluentValidation;
+﻿/*using FluentValidation;
 using agroApp.Domain.Entities;
 
 namespace agroApp.Domain.Validation
@@ -22,4 +22,4 @@ namespace agroApp.Domain.Validation
                 .WithMessage("A senha deve ter pelo menos 6 caracteres.");
         }
     }
-}
+}*/

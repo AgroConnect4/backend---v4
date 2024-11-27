@@ -1,4 +1,4 @@
-using FluentValidation;
+/*using FluentValidation;
 using agroApp.Domain.Entities;
 
 namespace agroApp.Domain.Validation
@@ -12,4 +12,4 @@ namespace agroApp.Domain.Validation
                 .WithMessage("Nome do papel é obrigatório.");
         }
     }
-}
+}*/

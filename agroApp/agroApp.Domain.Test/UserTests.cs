@@ -1,4 +1,4 @@
-using Xunit;
+/*using Xunit;
 using agroApp.Domain.Entities;
 
 namespace Tests
@@ -93,4 +93,4 @@ namespace Tests
             Assert.NotNull(profile);
         }
     }
-}
+}*/

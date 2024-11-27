@@ -1,7 +1,5 @@
 using agroApp.API.Services;
-using agroApp.Application.Services;
 using agroApp.Domain.Entities;
-using agroApp.Domain.Repositories;
 using agroApp.Infra.Data.Context;
 using agroApp.Infra.Data.Repositories;
 using Microsoft.AspNetCore.Identity;
@@ -9,33 +7,117 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens; 
 using System.Text;
+using agroApp.Domain;
 using Microsoft.OpenApi.Models;
+using Microsoft.Extensions.Configuration;
+using Microsoft.AspNetCore.Cors.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Configurar Entity Framework com SQL Server e definir a assembly de migrações
+/*builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"), 
+                    ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection")),
+                    b => b.MigrationsAssembly("agroApp.Infra.Data")));*/
+
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlServer("Data Source = sqlserveragroconnect.database.windows.net; Initial Catalog = sql_agroconnect; User ID = kamydados; Password = Pacoca2005.; Connect Timeout = 30; Encrypt = True; ",
-        b => b.MigrationsAssembly("agroApp.Infra.Data")));
+    options.UseSqlServer("Data Source = agroconnect-fatec-2024.database.windows.net; Initial Catalog = AgroConnect; User ID = agroconnect-fatec; Password = JGM&852882022; Connect Timeout = 30; Encrypt = True; ",
+    b => b.MigrationsAssembly("agroApp.Infra.Data")));
 
 // Configurar ASP.NET Identity
 builder.Services.AddIdentity<User, IdentityRole>()
     .AddEntityFrameworkStores<AppDbContext>()
     .AddDefaultTokenProviders();
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: "AllowFrontend",
+                      policy =>
+                      {
+                          policy.WithOrigins("http://localhost:5173") // Add your React app's URL here
+                                .AllowAnyHeader()
+                                .AllowAnyMethod()
+                                .AllowCredentials();
+                      });
+});
+
 builder.Services.AddScoped<SignInManager<User>>();
 
 // Adicionar o serviço de autenticação (AuthService)
 builder.Services.AddScoped<IAuthService, AuthService>();
 
+//builder.Services.AddSingleton<IConfiguration>(Configuration);
+
+builder.Services.AddScoped<IEventsService, EventsService>(); 
 // Adicionar o serviço de PostService
 builder.Services.AddScoped<IPostService, PostService>();
 
 // Registar o repositório de PostRepository
 builder.Services.AddScoped<IPostRepository, PostRepository>();
 
-// Registar o repositório de UserRepository
-builder.Services.AddScoped<IUserRepository, UserRepository>(); // Adição necessária
+// Registar o repositório de UserRepository // Adição necessária
+
+builder.Services.AddScoped<IEventRepository, EventRepository>();
+
+builder.Services.AddScoped<IConnectionRepository, ConnectionRepository>();
+
+builder.Services.AddScoped<IConnectionService, ConnectionService>();
+
+// No Program.cs ou Startup.cs
+builder.Services.AddScoped<INotificationRepository, NotificationRepository>(); 
+
+builder.Services.AddScoped<INotificationService, NotificationService>(); 
+
+builder.Services.AddScoped<IUserRoleRepository, UserRoleRepository>();
+
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+
+builder.Services.AddScoped<IUserRoleService, UserRoleService>();
+builder.Services.AddScoped<IRoleRepository, RoleRepository>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+
+builder.Services.AddScoped<IAdminService, AdminService>();
+
+// ... dentro do ConfigureServices()
+//builder.Services.AddScoped<ICommentService, CommentService>();
+
+//builder.Services.AddScoped<ICommentRepository, CommentRepository>();
+
+//builder.Services.AddScoped<IShareService, ShareService>(); 
+
+//builder.Services.AddScoped<IShareRepository, ShareRepository>(); 
+
+builder.Services.AddScoped<IEventCommentService, EventCommentService>();
+
+builder.Services.AddScoped<IEventCommentRepository, EventCommentRepository>();
+
+builder.Services.AddScoped<IEventShareService, EventShareService>();
+
+builder.Services.AddScoped<IEventShareRepository, EventShareRepository>();
+
+builder.Services.AddScoped<IPostCommentService,PostCommentService>();
+
+builder.Services.AddScoped<IPostCommentRepository, PostCommentRepository>();
+
+builder.Services.AddScoped<IPostShareService, PostShareService>();
+
+builder.Services.AddScoped<IPostShareRepository, PostShareRepository>();
+
+builder.Services.AddScoped<IProfileService, ProfileService>();
+
+builder.Services.AddScoped<IProfileRepository, ProfileRepository>();
+
+
+builder.Services.AddScoped<IBannerService, BannerService>();
+
+builder.Services.AddScoped<IBannerRepository, BannerRepository>();
+
+builder.Services.AddScoped<ITipService, TipService>();
+
+builder.Services.AddScoped<ITipRepository, TipRepository>();
+
+builder.Services.AddScoped<INewsService, NewsService>();
+
+builder.Services.AddScoped<INewsRepository, NewsRepository>();
 
 // Adicionar serviços de controladores
 builder.Services.AddControllers();
@@ -61,6 +143,7 @@ builder.Configuration.AddUserSecrets<Program>();
 //        };
 //    });
 
+/*
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -77,13 +160,26 @@ builder.Services.AddAuthentication(options =>
         ValidAudience = builder.Configuration["Jwt:Audience"],
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
     };
-});
+});*/
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+            ValidIssuer = builder.Configuration["Jwt:Issuer"],
+            ValidAudience = builder.Configuration["Jwt:Audience"],
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"])),
+            ClockSkew = TimeSpan.FromSeconds(30) // Adjust as needed for dev/test
+        };
+    });
 
 builder.Services.AddSwaggerGen(c =>
 {
-
-
-
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
         Name = "Authorization",
@@ -119,6 +215,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseCors("AllowFrontend");
 
 app.UseHttpsRedirection();
 

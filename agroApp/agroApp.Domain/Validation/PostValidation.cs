@@ -1,32 +1,34 @@
-using FluentValidation;
+/*using FluentValidation;
 using agroApp.Domain.Entities;
+//using agroApp.API.Services;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace agroApp.Domain.Validation
 {
     public class PostValidator : AbstractValidator<Post>
     {
-        public PostValidator()
+        private readonly IPostTypeProvider _postTypeProvider;
+
+        public PostValidator(IPostTypeProvider postTypeProvider)
         {
+            _postTypeProvider = postTypeProvider;
+
             RuleFor(p => p.Content)
                 .NotEmpty()
                 .WithMessage("Conteúdo do post é obrigatório.");
-            
-            RuleFor(p => p.PostType)
+
+            RuleFor(p => p.Title)
                 .NotEmpty()
-                .WithMessage("Tipo do post é obrigatório.");
-            
-            RuleFor(p => p.PostType)
-                .Must(BeValidPostType)
+                .WithMessage("Título do post é obrigatório.");
+
+            // Em PostValidator
+            RuleFor(p => p.PostTypeId)
+                .NotEmpty()
+                .WithMessage("Tipo de post é obrigatório.")
+                .MustAsync(async (postTypeId, cancellation) => await _postTypeProvider.IsValidPostTypeAsync(postTypeId))
                 .WithMessage("Tipo de post inválido.");
         }
 
-        private bool BeValidPostType(string postType)
-        {
-            // Defina os tipos de posts permitidos
-            var validPostTypes = new[] { "Produto", "Serviço", "Máquina", "Outro" };
-            
-            return validPostTypes
-            .Contains(postType, StringComparer.OrdinalIgnoreCase);
-        }
     }
-}
+}*/

@@ -1,0 +1,13 @@
+using agroApp.Domain.Entities;
+
+namespace agroApp.API.DTOs
+{
+    public class TipCreateDto
+    {
+        public string Title { get; set; }
+        public string Description { get; set; }
+        public string IconUrl { get; set; }
+        public string Category { get; set; }
+        public bool IsPublished { get; set; } = true; // Default to published
+    }
+}

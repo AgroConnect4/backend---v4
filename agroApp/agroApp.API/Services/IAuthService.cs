@@ -10,5 +10,6 @@ namespace agroApp.API.Services
         Task<SignInResult> LoginAsync(string email, string password);
         Task<string> GenerateTokenAsync(User user);
         Task ForgotPasswordAsync(string email);
+        bool IsValidEmail(string email);
     }
 }

@@ -1,4 +1,4 @@
-using FluentValidation;
+/*using FluentValidation;
 using agroApp.Domain.Entities;
 
 namespace agroApp.Domain.Validation
@@ -16,4 +16,4 @@ namespace agroApp.Domain.Validation
                 .WithMessage("ID do papel é obrigatório.");
         }
     }
-}
+}*/

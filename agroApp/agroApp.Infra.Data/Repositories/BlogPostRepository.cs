@@ -17,12 +17,12 @@ namespace agroApp.Infra.Data.Repositories
             _context = context;
         }
 
-        public IEnumerable<BlogPost> GetAll()
+        /*public IEnumerable<BlogPost> GetAll()
         {
             return _context.BlogPosts.ToList();
         }
 
-        public BlogPost GetById(int id)
+        public BlogPost GetById(Guid id)
         {
             return _context.BlogPosts.Find(id);
         }
@@ -37,6 +37,6 @@ namespace agroApp.Infra.Data.Repositories
         {
             _context.BlogPosts.Remove(blogPost);
             _context.SaveChanges();
-        }
+        }*/
     }
 }

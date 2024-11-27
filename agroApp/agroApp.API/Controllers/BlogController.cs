@@ -1,14 +1,11 @@
-﻿using agroApp.API.DTOs;
+﻿/*using agroApp.API.DTOs;
 using agroApp.Domain.Entities;
 using agroApp.Infra.Data.Context;
 using agroApp.Infra.Data.Repositories;
 using FluentValidation;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-
 using System.Security.Claims;
-
-
 
 namespace agroApp.API.Controllers
 {
@@ -43,7 +40,7 @@ namespace agroApp.API.Controllers
 
             // Obtendo o ID do usuário atual e convertendo para int
             var userIdString = GetCurrentUserId(); // Isso retorna uma string
-            if (!int.TryParse(userIdString, out int userId))
+            if (!int.TryParse(userIdString, out Guid userId))
             {
                 return BadRequest("Invalid user ID."); // Retorna um erro se a conversão falhar
             }
@@ -62,7 +59,7 @@ namespace agroApp.API.Controllers
 
         [HttpDelete("{id}")]
         [Authorize(Roles = "Admin")]
-        public IActionResult DeletePost(int id)
+        public IActionResult DeletePost(Guid id)
         {
             var post = _blogPostRepository.GetById(id);
             if (post == null)
@@ -79,6 +76,5 @@ namespace agroApp.API.Controllers
             return User.FindFirst(ClaimTypes.NameIdentifier)?.Value; // Retorna o ID do usuário autenticado
         }
     }
-
-
 }
+*/

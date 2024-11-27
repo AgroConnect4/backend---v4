@@ -2,55 +2,26 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Threading.Tasks;
+using System.Text.RegularExpressions;
 
 namespace agroApp.Domain.Entities
 {
     public class BlogPost
     {
-        public int Id { get; set; }
-        private string _title;
-        public string Title
-        {
-            get { return _title; }
-            set 
-            {
-                ValidateTitle(value);
-                _title = value; 
-            }
-        }
+        public Guid Id { get; set; }
 
-        private string _content;
-        public string Content
-        {
-            get { return _content; }
-            set 
-            {
-                ValidateContent(value);
-                _content = value; 
-            }
-        }
+        public string Title { get; set; }
+
+        public string Content { get; set; }
+
         public DateTime DateCreated { get; set; }
 
-        public int UserId { get; set; } // Autor da postagem
-        public User User { get; set; }  // Referência ao autor
+        public Guid UserId { get; set; } 
+        
+        public virtual User User { get; set; } 
 
-        private void ValidateTitle(string title)
-        {
-            if (string.IsNullOrEmpty(title))
-            {
-                throw new ArgumentException("Title não pode ser nulo ou vazio.");
-            }
-        }
-
-        // Validação para Content
-        private void ValidateContent(string content)
-        {
-            if (string.IsNullOrEmpty(content))
-            {
-                throw new ArgumentException("Content não pode ser nulo ou vazio.");
-            }
-        }
     }
 
 }

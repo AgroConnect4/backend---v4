@@ -11,7 +11,10 @@ using System.Text;
 using System.Threading.Tasks;
 using agroApp.Domain.Entities;
 using agroApp.API.DTOs;
+using Microsoft.EntityFrameworkCore;
 using agroApp.Infra.Data.Repositories;
+using System.Text.RegularExpressions;
+using agroApp.Infra.Data.Context;
 
 namespace agroApp.API.Services
 {
@@ -19,53 +22,82 @@ namespace agroApp.API.Services
     {
         private readonly UserManager<User> _userManager;
         private readonly IConfiguration _configuration;
-        private readonly SignInManager<User> _signInManager;
+        private readonly IRoleRepository _roleRepository; 
         private readonly IUserRepository _userRepository;
+        private readonly AppDbContext _context;
+        private readonly IProfileRepository _profileRepository;
+        private readonly IUserRoleRepository _userRoleRepository;
 
-        public AuthService(UserManager<User> userManager, SignInManager<User> signInManager, IConfiguration configuration, IUserRepository userRepository)
+        public AuthService(UserManager<User> userManager, 
+        IConfiguration configuration,
+        IRoleRepository roleRepository,
+        IUserRepository userRepository,
+        IUserRoleRepository userRoleRepository,
+        IProfileRepository profileRepository,
+        AppDbContext context)
         {
+            _userRoleRepository = userRoleRepository;
             _userManager = userManager;
-            _signInManager = signInManager;
+            _roleRepository = roleRepository;
             _configuration = configuration;
             _userRepository = userRepository;
+            _context = context;
+            _profileRepository = profileRepository;
         }
 
         public async Task<IdentityResult> RegisterAsync(string username, string email, string password)
         {
-            var user = new User
+            var user = new User { UserName = username, Email = email };
+            var result = await _userManager.CreateAsync(user, password); //Use UserManager for password hashing
+            
+            if (result.Succeeded)
             {
-                UserName = username,
-                Email = email
-            };
-
-            return await _userManager.CreateAsync(user, password);
+                var profile = new Profile { UserId = user.Id, User = user };
+                await _profileRepository.AddAsync(profile);
+                
+                var userRole = await _roleRepository.GetByNameAsync("User") ?? new Role {Name = "User"};
+                await _roleRepository.AddOrUpdateAsync(userRole);
+                await _userRoleRepository.AddAsync(new UserRole {UserId = user.Id, RoleId = userRole.Id});
+                return IdentityResult.Success;
+            }
+            else
+            {
+                return result;
+            }
         }
 
         public async Task<SignInResult> LoginAsync(string email, string password)
         {
-            var user = await _userManager.FindByEmailAsync(email);
+            var user = await _userRepository.GetByEmailAsync(email);
 
             if (user == null)
             {
                 return SignInResult.Failed;
             }
 
-            return await _signInManager.PasswordSignInAsync(user, password, false, lockoutOnFailure: false);
+           return SignInResult.Success;
         }
 
         // Método para gerar um token JWT
         // Aplication.Services/AuthService.cs
         public async Task<string> GenerateTokenAsync(User user)
         {
+            var roles = (await _context.UserRoles
+                .Where(ur => ur.UserId == user.Id)
+                .Include(ur => ur.Role) //Include is now correctly used
+                .Select(ur => ur.Role.Name)
+                .ToListAsync());
+            
             var claims = new List<Claim>
             {
-                new Claim(JwtRegisteredClaimNames.Sub, user.Id.ToString()),
+                //new Claim(JwtRegisteredClaimNames.Sub, user.Id.ToString()),
+                new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
                 new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
-                new Claim(JwtRegisteredClaimNames.Email, user.Email)
+                new Claim(JwtRegisteredClaimNames.Email, user.Email),
+                new Claim(ClaimTypes.Role, "User"),
             };
 
-            // Adicione outras reivindicações (claims) se necessário
-            // ...
+            claims.AddRange(roles.Select(role => new Claim(ClaimTypes.Role, role)));
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
@@ -74,7 +106,7 @@ namespace agroApp.API.Services
                 issuer: _configuration["Jwt:Issuer"],
                 audience: _configuration["Jwt:Audience"],
                 claims: claims,
-                expires: DateTime.Now.AddMinutes(30), // Tempo de expiração do token
+                expires: DateTime.Now.AddMinutes(30),
                 signingCredentials: creds
             );
 
@@ -86,10 +118,14 @@ namespace agroApp.API.Services
             var user = await _userRepository.GetByEmailAsync(email);
             if (user == null) throw new Exception("Usuário não encontrado.");
 
-            await _userRepository.UpdateAsync(user);
-
             var token = await _userManager.GeneratePasswordResetTokenAsync(user);
-            // Enviar o token via email ao usuário
+            // TODO: Implementar envio de email com o token aqui.
+        }
+
+        public bool IsValidEmail(string email)
+        {
+            if (string.IsNullOrWhiteSpace(email)) return false;
+            return Regex.IsMatch(email, @"^[^@\s]+@[^@\s]+\.[^@\s]+$", RegexOptions.IgnoreCase);
         }
     }
 }

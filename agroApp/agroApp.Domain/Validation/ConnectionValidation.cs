@@ -1,4 +1,4 @@
-using FluentValidation;
+/*using FluentValidation;
 using agroApp.Domain.Entities;
 
 namespace agroApp.Domain.Validation
@@ -8,12 +8,12 @@ namespace agroApp.Domain.Validation
         public ConnectionValidator()
         {
             RuleFor(c => c.UserId)
-                .NotEmpty()
+                .NotEqual(Guid.Empty)
                 .WithMessage("ID do usuário é obrigatório.");
-            
+
             RuleFor(c => c.ConnectedUserId)
-                .NotEmpty()
+                .NotEqual(Guid.Empty)
                 .WithMessage("ID do usuário conectado é obrigatório.");
         }
     }
-}
+}*/

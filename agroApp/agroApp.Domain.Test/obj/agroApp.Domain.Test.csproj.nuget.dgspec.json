@@ -1,35 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kamil\\Desktop\\git\\backend---v4\\agroApp\\agroApp.Domain.Test\\agroApp.Domain.Test.csproj": {}
+    "C:\\ENTREGAR\\backend---v4\\agroApp\\agroApp.Domain.Test\\agroApp.Domain.Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kamil\\Desktop\\git\\backend---v4\\agroApp\\agroApp.Domain.Test\\agroApp.Domain.Test.csproj": {
+    "C:\\ENTREGAR\\backend---v4\\agroApp\\agroApp.Domain.Test\\agroApp.Domain.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kamil\\Desktop\\git\\backend---v4\\agroApp\\agroApp.Domain.Test\\agroApp.Domain.Test.csproj",
+        "projectUniqueName": "C:\\ENTREGAR\\backend---v4\\agroApp\\agroApp.Domain.Test\\agroApp.Domain.Test.csproj",
         "projectName": "agroApp.Domain.Test",
-        "projectPath": "C:\\Users\\kamil\\Desktop\\git\\backend---v4\\agroApp\\agroApp.Domain.Test\\agroApp.Domain.Test.csproj",
-        "packagesPath": "C:\\Users\\kamil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kamil\\Desktop\\git\\backend---v4\\agroApp\\agroApp.Domain.Test\\obj\\",
+        "projectPath": "C:\\ENTREGAR\\backend---v4\\agroApp\\agroApp.Domain.Test\\agroApp.Domain.Test.csproj",
+        "packagesPath": "C:\\Users\\DanielM\\.nuget\\packages\\",
+        "outputPath": "C:\\ENTREGAR\\backend---v4\\agroApp\\agroApp.Domain.Test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kamil\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\DanielM\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\kamil\\Desktop\\git\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj": {
-                "projectPath": "C:\\Users\\kamil\\Desktop\\git\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj"
+              "C:\\ENTREGAR\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj": {
+                "projectPath": "C:\\ENTREGAR\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj"
               }
             }
           }
@@ -86,28 +84,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\kamil\\Desktop\\git\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj": {
+    "C:\\ENTREGAR\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kamil\\Desktop\\git\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj",
+        "projectUniqueName": "C:\\ENTREGAR\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj",
         "projectName": "agroApp.Domain",
-        "projectPath": "C:\\Users\\kamil\\Desktop\\git\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj",
-        "packagesPath": "C:\\Users\\kamil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kamil\\Desktop\\git\\backend---v4\\agroApp\\agroApp.Domain\\obj\\",
+        "projectPath": "C:\\ENTREGAR\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj",
+        "packagesPath": "C:\\Users\\DanielM\\.nuget\\packages\\",
+        "outputPath": "C:\\ENTREGAR\\backend---v4\\agroApp\\agroApp.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kamil\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\DanielM\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -168,7 +164,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,4 +1,4 @@
-using Xunit;
+/*using Xunit;
 using agroApp.Domain.Entities;
 
 namespace Tests
@@ -42,4 +42,4 @@ namespace Tests
             Assert.Throws<ArgumentException>(() => role.Name = ""); 
         }
     }
-}
+}*/

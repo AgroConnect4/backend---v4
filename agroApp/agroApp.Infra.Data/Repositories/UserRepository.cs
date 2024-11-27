@@ -1,5 +1,6 @@
+
 using agroApp.Domain.Entities;
-using agroApp.Domain.Repositories;
+using agroApp.Infra.Data.Repositories;
 using agroApp.Infra.Data.Context;
 
 using Microsoft.EntityFrameworkCore;
@@ -18,7 +19,7 @@ namespace agroApp.Infra.Data.Repositories
             _context = context;
         }
 
-        public async Task<User> GetByIdAsync(int userId)
+        public async Task<User> GetByIdAsync(Guid userId)
         {
             return await _context.Users.FindAsync(userId);
         }
@@ -26,6 +27,11 @@ namespace agroApp.Infra.Data.Repositories
         public async Task<User> GetByEmailAsync(string email)
         {
             return await _context.Users.FirstOrDefaultAsync(u => u.Email == email);
+        }
+
+        public async Task<Connection> GetConnectedUserIdAsync(Guid connectionId)
+        {
+            return await _context.Connections.FindAsync(connectionId);
         }
 
         public async Task<User> AddAsync(User user)
@@ -42,7 +48,7 @@ namespace agroApp.Infra.Data.Repositories
             return user;
         }
 
-        public async Task DeleteAsync(int userId)
+        public async Task DeleteAsync(Guid userId)
         {
             var user = await _context.Users.FindAsync(userId);
             if (user != null)
@@ -50,6 +56,16 @@ namespace agroApp.Infra.Data.Repositories
                 _context.Users.Remove(user);
                 await _context.SaveChangesAsync();
             }
+        }
+
+        public async Task<User> GetUserByIdAsync(Guid userId)
+        {
+            return await _context.Users.FindAsync(userId);
+        }
+
+        public async Task<List<User>> GetAllUsersAsync()
+        {
+            return await _context.Users.ToListAsync();
         }
     }
 }

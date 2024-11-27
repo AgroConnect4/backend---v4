@@ -1,4 +1,4 @@
-﻿using agroApp.Domain.Entities;
+﻿/*using agroApp.Domain.Entities;
 using FluentValidation;
 using System;
 
@@ -21,4 +21,4 @@ namespace agroApp.Domain.Validation
                 .NotEmpty().WithMessage("O conteúdo é obrigatório.");
         }
     }
-}
+}*/

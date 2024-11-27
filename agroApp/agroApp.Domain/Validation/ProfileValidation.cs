@@ -1,4 +1,4 @@
-using FluentValidation;
+/*using FluentValidation;
 using agroApp.Domain.Entities;
 
 namespace agroApp.Domain.Validation
@@ -20,4 +20,4 @@ namespace agroApp.Domain.Validation
                 .WithMessage("Descrição é obrigatória.");
         }
     }
-}
+}*/

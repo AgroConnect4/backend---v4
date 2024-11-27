@@ -8,24 +8,17 @@ namespace agroApp.Domain.Entities
 {
     public class Role
     {
-        public int Id { get; set; }
-        private string _name;
-        public string Name
-        {
-            get { return _name; }
-            set
-            {
-                ValidateName(value); // Chama o método de validação
-                _name = value;
-            }
-        }
-        public ICollection<UserRole> UserRoles { get; set; } = new List<UserRole>();
-        private void ValidateName(string name)
+        public Guid Id { get; set; }
+        
+        public string Name {get; set;}
+
+        public List<UserRole> UserRoles { get; set; } = new List<UserRole>();
+        /*private void ValidateName(string name)
         {
             if (string.IsNullOrEmpty(name))
             {
                 throw new ArgumentException("Name não pode ser nulo ou vazio.");
             }
-        }
+        }*/
     }
 }

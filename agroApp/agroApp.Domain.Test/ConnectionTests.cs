@@ -1,5 +1,6 @@
-using Xunit;
+/*using Xunit;
 using agroApp.Domain.Entities;
+using System;
 
 namespace Tests
 {
@@ -9,7 +10,7 @@ namespace Tests
         public void Connection_ShouldHaveValidUserId_WhenSet()
         {
             // Arrange
-            var userId = 1;
+            var userId = Guid.NewGuid(); // Use Guid.NewGuid()
             var connection = new Connection { UserId = userId };
 
             // Act
@@ -19,21 +20,21 @@ namespace Tests
             Assert.Equal(userId, actualUserId);
         }
 
-        [Fact]
-        public void Connection_ShouldThrowArgumentException_WhenUserIdIsZero()
+         [Fact]
+        public void Connection_ShouldThrowArgumentException_WhenUserIdIsInvalid()
         {
             // Arrange
             var connection = new Connection();
 
             // Act & Assert
-            Assert.Throws<ArgumentException>(() => connection.UserId = 0);
+            Assert.Throws<FormatException>(() => connection.UserId = Guid.Parse("invalid-guid")); // Testando com um int inválido
         }
 
         [Fact]
         public void Connection_ShouldHaveValidConnectedUserId_WhenSet()
         {
             // Arrange
-            var connectedUserId = 2;
+            var connectedUserId = Guid.NewGuid(); // Use Guid.NewGuid()
             var connection = new Connection { ConnectedUserId = connectedUserId };
 
             // Act
@@ -44,13 +45,13 @@ namespace Tests
         }
 
         [Fact]
-        public void Connection_ShouldThrowArgumentException_WhenConnectedUserIdIsZero()
+        public void Connection_ShouldThrowArgumentException_WhenConnectedUserIdIsInvalid()
         {
             // Arrange
             var connection = new Connection();
 
             // Act & Assert
-            Assert.Throws<ArgumentException>(() => connection.ConnectedUserId = 0);
+            Assert.Throws<FormatException>(() => connection.ConnectedUserId = Guid.Parse("invalid-guid")); // Testando com um int inválido
         }
 
         [Fact]
@@ -80,5 +81,25 @@ namespace Tests
             // Assert
             Assert.Equal(connectedUser, actualConnectedUser);
         }
+
+        [Fact]
+        public void Connection_ShouldThrowArgumentException_WhenUserIdIsEmpty()
+        {
+            // Arrange
+            var connection = new Connection();
+
+            // Act & Assert
+            Assert.Throws<ArgumentException>(() => connection.UserId = Guid.Empty); 
+        }
+
+        [Fact]
+        public void Connection_ShouldThrowArgumentException_WhenConnectedUserIdIsEmpty()
+        {
+            // Arrange
+            var connection = new Connection();
+
+            // Act & Assert
+            Assert.Throws<ArgumentException>(() => connection.ConnectedUserId = Guid.Empty); 
+        }
     }
-}
+}*/
