@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DcdUGApr6lGz24VnGc/ypnDq1xZMKYZuPLYblw62iQ3PzK7UJFHNimvu4Bxm3t9ng1PbPhkOsY0x3qSsMrUDGQ==",
+  "dgSpecHash": "vCyssVeTOoE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\kamil\\Desktop\\git\\backend---v4\\agroApp\\agroApp.Infra.Ioc\\agroApp.Infra.Ioc.csproj",
+  "projectFilePath": "C:\\AgroConnectEnviar\\backend---v4\\agroApp\\agroApp.Infra.Ioc\\agroApp.Infra.Ioc.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

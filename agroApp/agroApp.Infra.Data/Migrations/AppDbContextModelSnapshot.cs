@@ -17,7 +17,7 @@ namespace agroApp.Infra.Data.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "8.0.8")
+                .HasAnnotation("ProductVersion", "8.0.10")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -49,6 +49,73 @@ namespace agroApp.Infra.Data.Migrations
                     b.HasIndex("UserId");
 
                     b.ToTable("BlogPosts");
+                });
+
+            modelBuilder.Entity("agroApp.Domain.Entities.Connection", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("ConnectedUserId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ConnectedUserId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Connections");
+                });
+
+            modelBuilder.Entity("agroApp.Domain.Entities.Event", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("EndDateTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("ImageUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Location")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ProductImages")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("StartDateTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Events");
                 });
 
             modelBuilder.Entity("agroApp.Domain.Entities.Post", b =>
@@ -166,7 +233,6 @@ namespace agroApp.Infra.Data.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PasswordHash")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PhoneNumber")
@@ -182,7 +248,6 @@ namespace agroApp.Infra.Data.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("UserName")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
@@ -217,6 +282,36 @@ namespace agroApp.Infra.Data.Migrations
                 {
                     b.HasOne("agroApp.Domain.Entities.User", "User")
                         .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("agroApp.Domain.Entities.Connection", b =>
+                {
+                    b.HasOne("agroApp.Domain.Entities.User", "ConnectedUser")
+                        .WithMany()
+                        .HasForeignKey("ConnectedUserId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.HasOne("agroApp.Domain.Entities.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("ConnectedUser");
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("agroApp.Domain.Entities.Event", b =>
+                {
+                    b.HasOne("agroApp.Domain.Entities.User", "User")
+                        .WithMany("OrganizedEvents")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -272,6 +367,8 @@ namespace agroApp.Infra.Data.Migrations
 
             modelBuilder.Entity("agroApp.Domain.Entities.User", b =>
                 {
+                    b.Navigation("OrganizedEvents");
+
                     b.Navigation("Posts");
 
                     b.Navigation("Profile")

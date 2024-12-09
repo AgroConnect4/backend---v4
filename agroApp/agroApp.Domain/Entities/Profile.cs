@@ -54,6 +54,11 @@ namespace agroApp.Domain.Entities
             }
         }
 
+        public string InstagramUrl { get; set; }
+        public string FacebookUrl { get; set; }
+        public string LinkedInUrl { get; set; }
+        public string WhatsAppNumber { get; set; }
+
         // Chave estrangeira para User
         public int UserId { get; set; }
 

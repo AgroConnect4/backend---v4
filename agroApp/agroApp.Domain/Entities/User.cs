@@ -27,7 +27,8 @@ namespace agroApp.Domain.Entities;
         public Profile Profile { get; set; }
         public ICollection<Post> Posts { get; set; } = new List<Post>();
         public ICollection<UserRole> UserRoles { get; set; } = new List<UserRole>();
-    
+        public ICollection<Event> OrganizedEvents { get; set; } = new List<Event>();
+
         private void ValidateEmail(string email)
         {
             if (string.IsNullOrEmpty(email))

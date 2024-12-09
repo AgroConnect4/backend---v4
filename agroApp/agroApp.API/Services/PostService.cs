@@ -11,8 +11,7 @@ using Microsoft.IdentityModel.Tokens;
 using System.Security.Claims;
 using System.Text;
 
-
-namespace agroApp.Application.Services
+namespace agroApp.API.Services
 {
     public class PostService : IPostService
     {
