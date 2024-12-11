@@ -979,11 +979,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ENTREGAR\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj",
+      "projectUniqueName": "C:\\AGROCONNECT\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj",
       "projectName": "agroApp.Domain",
-      "projectPath": "C:\\ENTREGAR\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj",
+      "projectPath": "C:\\AGROCONNECT\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj",
       "packagesPath": "C:\\Users\\DanielM\\.nuget\\packages\\",
-      "outputPath": "C:\\ENTREGAR\\backend---v4\\agroApp\\agroApp.Domain\\obj\\",
+      "outputPath": "C:\\AGROCONNECT\\backend---v4\\agroApp\\agroApp.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DanielM\\AppData\\Roaming\\NuGet\\NuGet.Config"

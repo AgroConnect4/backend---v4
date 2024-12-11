@@ -317,6 +317,37 @@ namespace agroApp.API.Controllers
             }
         }
 
+        [HttpGet("{postId}/reactions")]
+        public async Task<IActionResult> GetPostReactions(Guid postId)
+        {
+            try
+            {
+                var reactions = await _postReactionService.GetReactionsByPostIdAsync(postId);
+
+                // Mapeamento para um DTO (Data Transfer Object) para evitar o envio de dados desnecessários
+                var reactionDtos = reactions.Select(r => new PostReactionDto
+                {
+                    PostId = r.PostId,
+                    UserId = r.UserId,
+                    ReactionType = r.ReactionType,
+                    User = new UserDto // ou qualquer outro DTO que você tenha para User
+                    {
+                        Id = r.User.Id,
+                        Name = r.User.Name,
+                        
+                    }
+                }).ToList();
+
+
+                return Ok(reactionDtos);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error getting reactions for post {postId}", postId);
+                return StatusCode(500, "An unexpected error occurred.");
+            }
+        }
+
         [HttpGet]
         public async Task<IActionResult> GetAllPosts()
         {

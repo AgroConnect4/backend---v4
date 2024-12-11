@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vjxnpQFOktQ=",
+  "dgSpecHash": "TzpNIczLFLo=",
   "success": true,
-  "projectFilePath": "C:\\ENTREGAR\\backend---v4\\agroApp\\agroApp.Domain.Test\\agroApp.Domain.Test.csproj",
+  "projectFilePath": "C:\\AGROCONNECT\\backend---v4\\agroApp\\agroApp.Domain.Test\\agroApp.Domain.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DanielM\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\DanielM\\.nuget\\packages\\fluentvalidation\\11.10.0\\fluentvalidation.11.10.0.nupkg.sha512",

@@ -101,18 +101,24 @@ namespace agroApp.API.Controllers
             }
         }
 
-        [HttpPut] // Update current user's profile
-        public async Task<IActionResult> UpdateUserProfile([FromBody] UpdateProfileDto updateProfileDto)
+       [HttpPut("{userId}")]
+        public async Task<IActionResult> UpdateUserProfile(Guid userId, [FromBody] UpdateProfileDto updateProfileDto)
         {
+            //Console.WriteLine($"Dados recebidos: {JsonConvert.SerializeObject(updateProfileDto)}");
+            
             if (!ModelState.IsValid) return BadRequest(ModelState);
 
-            Guid userId = GetUserIdFromToken();
-
+            // Retrieve the user profile by ID
             var profile = await _profileService.GetProfileAsync(userId);
             if (profile == null) return NotFound("Perfil não encontrado.");
 
+            Guid userIdFromToken = GetUserIdFromToken();
+            if(userIdFromToken != userId){
+                return Unauthorized("Você não tem permissão para editar este perfil.");
+            }
+
             // Update profile properties (only include properties you want to update)
-            profile.Name = updateProfileDto.Name ?? profile.Name; // Use existing value if null
+            profile.Name = updateProfileDto.Name ?? profile.Name;
             profile.Bio = updateProfileDto.Bio ?? profile.Bio;
             profile.ProfilePicture = updateProfileDto.ProfilePicture ?? profile.ProfilePicture;
             profile.CoverPicture = updateProfileDto.CoverPicture ?? profile.CoverPicture;
@@ -122,10 +128,74 @@ namespace agroApp.API.Controllers
             profile.Certifications = updateProfileDto.Certifications ?? profile.Certifications;
             profile.ProductsOffered = updateProfileDto.ProductsOffered ?? profile.ProductsOffered;
 
+
             await _profileService.UpdateProfileAsync(profile);
             return Ok();
         }
 
+        [HttpGet("myprofile")]
+        public async Task<IActionResult> GetCurrentUserProfile()
+        {
+            try
+            {
+                Guid userId = GetUserIdFromToken(); // Get userId from token
+
+                var profile = await _profileService.GetProfileAsync(userId);
+                if (profile == null)
+                {
+                    return NotFound("Profile not found.");
+                }
+
+                var profileDto = new UserProfileDto
+                {
+                    Id = profile.Id,
+                    Name = profile.Name,
+                    Bio = profile.Bio,
+                    ProfilePicture = profile.ProfilePicture,
+                    CoverPicture = profile.CoverPicture,
+                    Description = profile.Description,
+                    PhoneNumber = profile.PhoneNumber,
+                    Website = profile.Website,
+                    AverageRating = profile.AverageRating,
+                    Certifications = profile.Certifications,
+                    ProductsOffered = profile.ProductsOffered,
+                    ContactMethods = profile.ContactMethods.Select(cm => new ContactMethodDto
+                    {
+                        Type = cm.Type,
+                        UrlOrNumber = cm.UrlOrNumber
+                    }).ToList(),
+                    Farms = profile.Farms.Select(f => new FarmDto
+                    {
+                        Name = f.Name,
+                        Location = f.Location
+                    }).ToList(),
+                    Specializations = profile.Specializations.Select(s => new SpecializationDto
+                    {
+                        Name = s.Name,
+                        Description = s.Description
+                    }).ToList(),
+                    Portfolio = profile.Portfolio.Select(p => new PortfolioItemDto
+                    {
+                        Title = p.Title,
+                        Description = p.Description,
+                        ImageUrl = p.ImageUrl,
+                        VideoUrl = p.VideoUrl
+                    }).ToList()
+                };
+
+                return Ok(profileDto);
+            }
+            catch (UnauthorizedAccessException ex)
+            {
+                _logger.LogError(ex, "Unauthorized access attempt.");
+                return Unauthorized(ex.Message);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error retrieving user profile.");
+                return StatusCode(500, new { message = "Internal Server Error" });
+            }
+        }
 
         [HttpGet("{userId}")]
         public async Task<IActionResult> GetUserProfile(Guid userId)

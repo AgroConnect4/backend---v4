@@ -7,6 +7,7 @@ namespace agroApp.Domain.Entities
     public enum ReactionType
     {
         Like,
+        Deslike,
         Love,
         Haha,
         Wow,

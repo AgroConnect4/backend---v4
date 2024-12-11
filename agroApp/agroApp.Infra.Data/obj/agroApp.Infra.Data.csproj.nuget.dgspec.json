@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ENTREGAR\\backend---v4\\agroApp\\agroApp.Infra.Data\\agroApp.Infra.Data.csproj": {}
+    "C:\\AGROCONNECT\\backend---v4\\agroApp\\agroApp.Infra.Data\\agroApp.Infra.Data.csproj": {}
   },
   "projects": {
-    "C:\\ENTREGAR\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj": {
+    "C:\\AGROCONNECT\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ENTREGAR\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj",
+        "projectUniqueName": "C:\\AGROCONNECT\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj",
         "projectName": "agroApp.Domain",
-        "projectPath": "C:\\ENTREGAR\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj",
+        "projectPath": "C:\\AGROCONNECT\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj",
         "packagesPath": "C:\\Users\\DanielM\\.nuget\\packages\\",
-        "outputPath": "C:\\ENTREGAR\\backend---v4\\agroApp\\agroApp.Domain\\obj\\",
+        "outputPath": "C:\\AGROCONNECT\\backend---v4\\agroApp\\agroApp.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DanielM\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -84,14 +84,14 @@
         }
       }
     },
-    "C:\\ENTREGAR\\backend---v4\\agroApp\\agroApp.Infra.Data\\agroApp.Infra.Data.csproj": {
+    "C:\\AGROCONNECT\\backend---v4\\agroApp\\agroApp.Infra.Data\\agroApp.Infra.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ENTREGAR\\backend---v4\\agroApp\\agroApp.Infra.Data\\agroApp.Infra.Data.csproj",
+        "projectUniqueName": "C:\\AGROCONNECT\\backend---v4\\agroApp\\agroApp.Infra.Data\\agroApp.Infra.Data.csproj",
         "projectName": "agroApp.Infra.Data",
-        "projectPath": "C:\\ENTREGAR\\backend---v4\\agroApp\\agroApp.Infra.Data\\agroApp.Infra.Data.csproj",
+        "projectPath": "C:\\AGROCONNECT\\backend---v4\\agroApp\\agroApp.Infra.Data\\agroApp.Infra.Data.csproj",
         "packagesPath": "C:\\Users\\DanielM\\.nuget\\packages\\",
-        "outputPath": "C:\\ENTREGAR\\backend---v4\\agroApp\\agroApp.Infra.Data\\obj\\",
+        "outputPath": "C:\\AGROCONNECT\\backend---v4\\agroApp\\agroApp.Infra.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DanielM\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -106,8 +106,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\ENTREGAR\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj": {
-                "projectPath": "C:\\ENTREGAR\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj"
+              "C:\\AGROCONNECT\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj": {
+                "projectPath": "C:\\AGROCONNECT\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj"
               }
             }
           }

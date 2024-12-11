@@ -8914,11 +8914,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ENTREGAR\\backend---v4\\agroApp\\agroApp.Aplication\\agroApp.Aplication.csproj",
+      "projectUniqueName": "C:\\AGROCONNECT\\backend---v4\\agroApp\\agroApp.Aplication\\agroApp.Aplication.csproj",
       "projectName": "agroApp.Aplication",
-      "projectPath": "C:\\ENTREGAR\\backend---v4\\agroApp\\agroApp.Aplication\\agroApp.Aplication.csproj",
+      "projectPath": "C:\\AGROCONNECT\\backend---v4\\agroApp\\agroApp.Aplication\\agroApp.Aplication.csproj",
       "packagesPath": "C:\\Users\\DanielM\\.nuget\\packages\\",
-      "outputPath": "C:\\ENTREGAR\\backend---v4\\agroApp\\agroApp.Aplication\\obj\\",
+      "outputPath": "C:\\AGROCONNECT\\backend---v4\\agroApp\\agroApp.Aplication\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DanielM\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -8933,11 +8933,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\ENTREGAR\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj": {
-              "projectPath": "C:\\ENTREGAR\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj"
+            "C:\\AGROCONNECT\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj": {
+              "projectPath": "C:\\AGROCONNECT\\backend---v4\\agroApp\\agroApp.Domain\\agroApp.Domain.csproj"
             },
-            "C:\\ENTREGAR\\backend---v4\\agroApp\\agroApp.Infra.Data\\agroApp.Infra.Data.csproj": {
-              "projectPath": "C:\\ENTREGAR\\backend---v4\\agroApp\\agroApp.Infra.Data\\agroApp.Infra.Data.csproj"
+            "C:\\AGROCONNECT\\backend---v4\\agroApp\\agroApp.Infra.Data\\agroApp.Infra.Data.csproj": {
+              "projectPath": "C:\\AGROCONNECT\\backend---v4\\agroApp\\agroApp.Infra.Data\\agroApp.Infra.Data.csproj"
             }
           }
         }

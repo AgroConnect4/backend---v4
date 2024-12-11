@@ -35,7 +35,7 @@ namespace agroApp.API.Controllers
             }
         }
 
-        [HttpPost]
+        [HttpPost("news")]
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> CreateTip([FromBody] TipCreateDto tipDto)
         {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tTenc8Pa97o=",
+  "dgSpecHash": "jvJNXsaHifg=",
   "success": true,
-  "projectFilePath": "C:\\ENTREGAR\\backend---v4\\agroApp\\agroApp.Infra.Data\\agroApp.Infra.Data.csproj",
+  "projectFilePath": "C:\\AGROCONNECT\\backend---v4\\agroApp\\agroApp.Infra.Data\\agroApp.Infra.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DanielM\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\DanielM\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

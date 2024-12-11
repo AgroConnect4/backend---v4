@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ENTREGAR\\backend---v4\\agroApp\\agroApp.Infra.Ioc\\agroApp.Infra.Ioc.csproj": {}
+    "C:\\AGROCONNECT\\backend---v4\\agroApp\\agroApp.Infra.Ioc\\agroApp.Infra.Ioc.csproj": {}
   },
   "projects": {
-    "C:\\ENTREGAR\\backend---v4\\agroApp\\agroApp.Infra.Ioc\\agroApp.Infra.Ioc.csproj": {
+    "C:\\AGROCONNECT\\backend---v4\\agroApp\\agroApp.Infra.Ioc\\agroApp.Infra.Ioc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ENTREGAR\\backend---v4\\agroApp\\agroApp.Infra.Ioc\\agroApp.Infra.Ioc.csproj",
+        "projectUniqueName": "C:\\AGROCONNECT\\backend---v4\\agroApp\\agroApp.Infra.Ioc\\agroApp.Infra.Ioc.csproj",
         "projectName": "agroApp.Infra.Ioc",
-        "projectPath": "C:\\ENTREGAR\\backend---v4\\agroApp\\agroApp.Infra.Ioc\\agroApp.Infra.Ioc.csproj",
+        "projectPath": "C:\\AGROCONNECT\\backend---v4\\agroApp\\agroApp.Infra.Ioc\\agroApp.Infra.Ioc.csproj",
         "packagesPath": "C:\\Users\\DanielM\\.nuget\\packages\\",
-        "outputPath": "C:\\ENTREGAR\\backend---v4\\agroApp\\agroApp.Infra.Ioc\\obj\\",
+        "outputPath": "C:\\AGROCONNECT\\backend---v4\\agroApp\\agroApp.Infra.Ioc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DanielM\\AppData\\Roaming\\NuGet\\NuGet.Config"
